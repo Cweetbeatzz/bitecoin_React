@@ -1,25 +1,21 @@
 import logo from './logo.svg';
 import './App.css';
+import { Mainnet, DAppProvider, useEtherBalance, useEthers, Config, ChainId } from "@usedapp/core";
+import Header from "./components/header/Header";
+import Home from "./components/home/Home";
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    return ( <DAppProvider config = {
+            {
+                supportedChains: [ChainId.Kovan, ChainId.Rinkeby, ChainId.Avalanche, ChainId.BSC,
+                    ChainId.Fantom, ChainId.Mainnet, ChainId.Ropsten, ChainId.xDai
+                ]
+            }
+        } >
+        <Header/>
+        <Home/>
+        </DAppProvider>
+    );
 }
 
 export default App;
