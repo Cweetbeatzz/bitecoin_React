@@ -13,14 +13,14 @@ function Header() {
       <Container>
                 <a href="Index"><strong>BITECOIN</strong></a>
                <Menu>
-                    <a href="reservation">stake</a>
                     <a href="home">dashboard</a> 
+                    <a href="reservation">deposit</a>
+                    <a href="reservation">stake</a>
                     <a href="home">lottery</a> 
                     <a href="home">swap</a> 
                     <a href="home">nfts</a> 
                     <a href="reservation">borrow</a>
-                    <a href="contact">contact</a>
-                    <a href="about">about</a>
+                
                </Menu>
                <RightMenu>
                     <div>

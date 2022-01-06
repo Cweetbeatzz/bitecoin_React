@@ -4,7 +4,7 @@ function Stake() {
  return (
   <div class="container ">
       <div>
-        <h4 class="text-center text-white"><strong>CONTRACTS</strong></h4>
+        <h4 class="text-center text-warning"><strong>STAKING POOL</strong></h4>
      </div>
    <div class="col-10 d-flex mx-auto m-1 justify-content-center">
    
@@ -34,8 +34,12 @@ function Stake() {
         ROI is monthly.
       </p>
     </div>
-    <div class="text-center">
-    <a href="link" class="btn btn-primary">PROCEED</a>
+    <div class="text-center mb-3">
+    <a href="link" class="btn btn-primary">STAKE</a>
+    </div>
+
+      <div class="text-center  mb-3">
+    <a href="link" class="btn btn-primary">CONNECT WALLET</a>
     </div>
     </div>
     </div>
@@ -45,7 +49,7 @@ function Stake() {
    <div class="col-4 m-2">
     <div class="card">
      <div class="card-body">
-    <h5 class="card-title text-center"><strong>STAKING PARAMETERS</strong></h5>
+    <h5 class="card-title text-center"><strong>MANAGE STAKING</strong></h5>
     <div class="dropdown-divider "></div>
 
     
@@ -54,6 +58,7 @@ function Stake() {
     
     <div class="dropdown-divider bg-black"></div>
     <div><label>STAKED</label></div>
+    
     <br/>
     
     <a href="link" class="btn btn-primary">Go somewhere</a>

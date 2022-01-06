@@ -4,12 +4,13 @@ import {Container,TextItem} from './Home.styles'
 import Networks from '../networks/Networks';
 import Stake from '../stake/Stake';
 import Wallet from '../wallet/Wallet';
+import Swap from '../swap/Swap';
 
 
 function Home() {
  return (
   <Container>
-  <CarouselSlider/>
+  {/* <CarouselSlider/> */}
   <TextItem>
       <br/>
       <br/>
@@ -52,6 +53,8 @@ function Home() {
   <Stake/>
     <br></br>
   <Wallet/>
+    <br></br>
+  <Swap/>
   </Container>
  )
 }

@@ -6,7 +6,7 @@ function Wallet() {
    <hr class="text-white"/>
    <div class="card-head col-4 mx-auto">
     <div class=" h-100 mx-auto">
-    <h4 class="text-white d-flex text-center  justify-content-center"><strong>YOUR WALLET</strong></h4>
+    <h4 class="text-warning d-flex text-center  justify-content-center"><strong>YOUR WALLET</strong></h4>
     </div>
    </div>
    <hr class="text-white"/>
