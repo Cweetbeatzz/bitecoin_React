@@ -54,7 +54,6 @@ function Home() {
     <br></br>
   <Wallet/>
     <br></br>
-  <Swap/>
   </Container>
  )
 }

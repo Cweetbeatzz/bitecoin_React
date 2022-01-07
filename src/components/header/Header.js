@@ -1,5 +1,4 @@
 import React from 'react'
-import {Button} from 'react-bootstrap';
 import {Container,Menu,RightMenu,CustomMenu,BurgerNav} from './Header.styles';
 import {  useEthers } from '@usedapp/core';
 
@@ -24,8 +23,8 @@ function Header() {
                </Menu>
                <RightMenu>
                     <div>
-                       {isConnected ? (<Button onClick={deactivate}>DISCONNECT WALLET</Button> ):
-                       (<Button onClick={activateBrowserWallet}>CONNECT WALLET</Button> )}
+                       {isConnected ? (<button onClick={deactivate}>DISCONNECT WALLET</button> ):
+                       (<button class="btn btn-warning" onClick={activateBrowserWallet}>CONNECT WALLET</button> )}
                     </div>
                     <CustomMenu/>
                </RightMenu>
