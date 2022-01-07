@@ -6,7 +6,7 @@ function Networks() {
    <hr class="text-white"/>
    <div class="card-head col-4 mx-auto">
     <div class=" h-100 mx-auto">
-    <h5 class="text-white d-flex text-center  justify-content-center"><strong>SELECT YOUR NETWORK</strong></h5>
+    <h5 class="text-warning d-flex text-center  justify-content-center"><strong>SELECT YOUR NETWORK</strong></h5>
     </div>
    </div>
    <hr class="text-white"/>
@@ -52,7 +52,7 @@ function Networks() {
          <br></br>
       <div class="d-flex  mr-1 mx-auto justify-content-center">
         <div>
-          <h6 class="text-warning">Your Current MetaMask network is Ethereum Mainnet</h6>
+          <h6 class="text-white">Your Current MetaMask network is Ethereum Mainnet</h6>
         </div>
         </div>
     </div>

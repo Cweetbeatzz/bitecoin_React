@@ -1,6 +1,7 @@
 import React from 'react'
 import {Container,Menu,RightMenu,CustomMenu,BurgerNav} from './Header.styles';
 import {  useEthers } from '@usedapp/core';
+import {BrowserRouter,Link,Routes,Route} from 'react-router-dom';
 
 
 function Header() {
@@ -12,18 +13,20 @@ function Header() {
       <Container>
                 <a href="Index"><strong>BITECOIN</strong></a>
                <Menu>
+                   
                     <a href="home">dashboard</a> 
-                    <a href="reservation">deposit</a>
-                    <a href="reservation">stake</a>
-                    <a href="home">lottery</a> 
-                    <a href="home">swap</a> 
-                    <a href="home">nfts</a> 
-                    <a href="reservation">borrow</a>
-                
+                    <a href="deposit">deposit</a>
+                    <a href="farm">farm</a>
+                    <a href="stake">stake</a>
+                    <a href="lottery">lottery</a> 
+                    <a href="swap">swap</a> 
+                    <a href="nfts">nfts</a> 
+                    <a href="borrow">borrow</a>
+              
                </Menu>
                <RightMenu>
                     <div>
-                       {isConnected ? (<button onClick={deactivate}>DISCONNECT WALLET</button> ):
+                       {isConnected ? (<button class="btn btn-warning" onClick={deactivate}>DISCONNECT WALLET</button> ):
                        (<button class="btn btn-warning" onClick={activateBrowserWallet}>CONNECT WALLET</button> )}
                     </div>
                     <CustomMenu/>

@@ -9,7 +9,7 @@ function CarouselSlider() {
 <div  class="carousel slide bg-danger" data-ride="carousel">
     <div class="carousel-inner">
         <div class="carousel-item active caroimg" >
-            <img class="overflow-hidden img-thumbnail border-0 w-100 h-50 m-0 p-0" src="/images/211019083118-04-bitcoin-file-full-169.jpg" alt=""/>
+            <img class="overflow-hidden img-thumbnail border-0 w-100 h-50 m-0 p-0" src="/images/1440x810_cmsv2_768120c0-804d-5074-b412-98bc494766e7-6213088.jpg" alt=""/>
         </div>
         <div class="carousel-item caroimg">
             <img class="overflow-hidden img-thumbnail border-0 w-100 h-100 m-0 p-0" src="/images/bitcoin.webp"  alt=""/>

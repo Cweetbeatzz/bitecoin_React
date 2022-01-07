@@ -5,12 +5,18 @@ import Networks from '../networks/Networks';
 import Stake from '../stake/Stake';
 import Wallet from '../wallet/Wallet';
 import Swap from '../swap/Swap';
+import Footer from '../footer/Footer';
+
 
 
 function Home() {
  return (
   <Container>
-  {/* <CarouselSlider/> */}
+  <CarouselSlider/>
+   <br/>
+
+  <Networks/>
+
   <TextItem>
       <br/>
       <br/>
@@ -18,7 +24,7 @@ function Home() {
      <div class="col-6 mx-auto">
             <div class="text-center d-flex">
             <hr class="text-white"/>
-               <h4 class="mx-auto text-center" >
+               <h4 class="mx-auto text-center text-warning" >
                   <strong> ABOUT BITCOIN</strong>
                </h4>
                <hr class="text-white p-0"/>
@@ -40,20 +46,20 @@ function Home() {
          </h5>
        </div>
        <div class="text-center">
-              <a class="btn button btn-primary" href="https//:Blockchain.com">
+              <a class="btn button btn-primary" href="https://Blockchain.com">
              <strong>LEARN MORE</strong>
          </a>
        </div>
         
    </div>
   </TextItem>
-   <br></br>
-  <Networks/>
     <br></br>
-  <Stake/>
+  {/* <Stake/> */}
     <br></br>
-  <Wallet/>
+  {/* <Wallet/> */}
     <br></br>
+    <Footer/>
+
   </Container>
  )
 }
