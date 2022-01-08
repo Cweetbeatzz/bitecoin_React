@@ -70,9 +70,7 @@ function Borrow() {
     </tr>
   </tbody>
 </table>
-      <div class="text-center  mb-3">
-    <a href="link" class="btn btn-primary">CONNECT WALLET</a>
-    </div>
+   
     </div>
     </div>
 <br/>

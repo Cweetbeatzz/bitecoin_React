@@ -60,7 +60,7 @@ function Home() {
       <img src="images/multi-collateral-dai-dai-logo.png" class="artwork" height="70" width="70" alt=''/>
     </div>
     <div class="advertimages">
-      <img src="images/multi-collateral-dai-dai-logo.png" class="artwork" height="70" width="70" alt=''/>
+      <img src="images/Ethereum-Logo.wine.png" class="artwork" height="70" width="110" alt=''/>
     </div>
     <div class="advertimages">
       <img src="images/multi-collateral-dai-dai-logo.png" class="artwork" height="70" width="70" alt=''/>

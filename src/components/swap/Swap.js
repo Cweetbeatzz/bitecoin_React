@@ -16,21 +16,20 @@ function Swap() {
 
    <div class="col-9 m-2">
    <div class="card">
-    <div class="card-body">
+    <div class="card-body mx-auto w-100 justify-content-center">
       <div>
         <h4 class="card-title text-center"><strong>SWAP</strong></h4>
         <hr class="btn-black"/>
       </div>
 
-    <div class="form-group">
-    </div>
+    
     <div class="text-center">
         <label>Pay</label>
         <br/>
         <div class="d-flex">
           <div class="form-group col-3 mx-2">
                     <select class="form-control">
-                        <option class="form-control" value="0">Choose a Token...</option>
+                        <option class="form-control" value="0">Choose Token...</option>
                     </select>
           </div>
           <div class="form-group col-8">
@@ -45,7 +44,7 @@ function Swap() {
               <div class="d-flex">
           <div class="form-group col-3 mx-2">
                     <select class="form-control">
-                        <option class="form-control" value="0">Choose a Token...</option>
+                        <option class="form-control" value="0">Choose Token...</option>
                     </select>
           </div>
           <div class="form-group col-8">
