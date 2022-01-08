@@ -7,17 +7,20 @@ function Stake() {
     <br/>
     <br/>
       <div>
+        <hr class="text-white p-0"/> 
         <h4 class="text-center text-warning"><strong>STAKING POOL</strong></h4>
+        <hr class="text-white p-0"/> 
+   <br/>
+
      </div>
    <div class="col-10 d-flex mx-auto m-1 justify-content-center">
-   
 
    <div class="col-6 m-2">
    <div class="card">
     <div class="card-body">
       <div>
         <h4 class="card-title text-center"><strong>STAKE</strong></h4>
-        <div class="dropdown-divider w-50 text-center justify-content-center mx-auto btn-info"></div>
+  <hr class="btn-black"/>
       </div>
 
     <div class="form-group">
@@ -32,17 +35,16 @@ function Stake() {
     </div>
    
     <div class=" p-2 m-2 text-center">
-      <p>Try your luck and stake with any netwwork of your choice
-        and get a 10% return on every contract staked on...<br/>
-        ROI is monthly.
+      <p>Ensure Safety measures in stakes to secure the protocol in exchange for protocol incentives and avoid Liquidation on assets.
       </p>
     </div>
+    <hr class="btn-black"/>
     <div class="text-center mb-3">
-    <a href="link" class="btn btn-primary">STAKE</a>
+    <a href="link" class="btn btn-dark">STAKE</a>
     </div>
 
       <div class="text-center  mb-3">
-    <a href="link" class="btn btn-primary">CONNECT WALLET</a>
+    <a href="link" class="btn btn-warning">CONNECT WALLET</a>
     </div>
     </div>
     </div>
@@ -64,7 +66,7 @@ function Stake() {
     
     <br/>
     
-    <a href="link" class="btn btn-primary">Go somewhere</a>
+    <a href="link" class="btn btn-dark">Go somewhere</a>
     </div>
     </div>
    </div>

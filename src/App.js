@@ -8,6 +8,7 @@ import Footer from './components/footer/Footer.js';
 import Lottery from './components/lottery/Lottery.js';
 import Borrow from './components/borrow/Borrow.js';
 import Swap from './components/swap/Swap.js';
+import Deposit from './components/deposit/Deposit.js';
 import Nft from './components/nft/Nfts.js';
 import Dashboard from './components/dashboard/Dashboard.js';
 import {BrowserRouter,Routes,Route} from 'react-router-dom';
@@ -33,6 +34,7 @@ function App() {
         <Route path="Lottery" element={<Lottery/>}/>
         <Route path="Borrow" element={<Borrow/>}/>
         <Route path="Wallet" element={<Wallet/>}/>
+        <Route path="Deposit" element={<Deposit/>}/>
         </Routes>
         <Footer/>
 

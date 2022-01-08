@@ -2,10 +2,7 @@ import React from 'react'
 import CarouselSlider from '../carousel/CarouselSlider';
 import {Container,TextItem} from './Home.styles'
 import Networks from '../networks/Networks';
-import Stake from '../stake/Stake';
-import Wallet from '../wallet/Wallet';
-import Swap from '../swap/Swap';
-import Footer from '../footer/Footer';
+import './Home.styles.css';
 
 
 
@@ -53,7 +50,33 @@ function Home() {
         
    </div>
   </TextItem>
-    <br></br>
+    <br/>
+    <br/>
+    
+      <div class="container ">
+      <div class="row justify-content-center">
+        <div class="d-flex mx-auto justify-content-center">
+     <div class="advertimages">
+      <img src="images/multi-collateral-dai-dai-logo.png" class="artwork" height="70" width="70" alt=''/>
+    </div>
+    <div class="advertimages">
+      <img src="images/multi-collateral-dai-dai-logo.png" class="artwork" height="70" width="70" alt=''/>
+    </div>
+    <div class="advertimages">
+      <img src="images/multi-collateral-dai-dai-logo.png" class="artwork" height="70" width="70" alt=''/>
+    </div>
+    <div class="advertimages">
+      <img src="images/multi-collateral-dai-dai-logo.png" class="artwork" height="70" width="70" alt=''/>
+    </div>
+    <div class="advertimages">
+      <img src="images/multi-collateral-dai-dai-logo.png" class="artwork" height="70" width="70" alt=''/>
+    </div>
+    </div>
+    </div>
+      </div>
+    
+    <br/>
+
   </Container>
  )
 }
