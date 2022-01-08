@@ -1,13 +1,7 @@
-import styled from 'styled-components';
+import styled from "styled-components";
 
 export const Container = styled.div`
-min-height:100px;
+  min-height: 100px;
+`;
 
-
-
-`
-
-const Carousel = styled.div`
-
-
-`
+const Carousel = styled.div``;

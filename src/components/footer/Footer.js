@@ -1,18 +1,16 @@
-import React from 'react'
+import React from "react";
 
 function Footer() {
- return (
-  <div>
- <hr class="text-white p-0"/>
+  return (
+    <div>
+      <hr class="text-white p-0" />
 
-    <footer >
-        <div class=" text-center text-white">
-            &copy; BITECOIN
-        </div>
-    </footer>
-    <br/>
-  </div>
- )
+      <footer>
+        <div class=" text-center text-white">&copy; BITECOIN</div>
+      </footer>
+      <br />
+    </div>
+  );
 }
 
-export default Footer
+export default Footer;

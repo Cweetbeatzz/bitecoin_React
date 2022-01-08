@@ -1,19 +1,15 @@
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 .App {
-    text-align: center;
-    background-color: rgb(82, 82, 129);
-    height: 100%;
-    width: 100%;
-    overflow-x: hidden;
-
+  text-align: center;
+  background-color: rgb(82, 82, 129);
+  height: 100%;
+  width: 100%;
+  overflow-x: hidden;
 }
 
 a {
-    text-decoration: none;
+  text-decoration: none;
 }
-
-
-
