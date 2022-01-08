@@ -1,7 +1,6 @@
 import React from 'react'
 
-
-function Register() {
+function Dashboard() {
  return (
   <div>
    
@@ -9,6 +8,4 @@ function Register() {
  )
 }
 
-export default Register
-
-
+export default Dashboard

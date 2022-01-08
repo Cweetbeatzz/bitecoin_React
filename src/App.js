@@ -1,37 +1,45 @@
-import logo from './logo.svg';
 import './App.css';
 import { Mainnet, DAppProvider, useEtherBalance, useEthers, Config, ChainId } from "@usedapp/core";
-import Header from "./components/header/Header";
-import Home from "./components/home/Home";
+import Header from "./components/header/Header.js";
+import Home from "./components/home/Home.js";
 import Stake from './components/stake/Stake';
-import Wallet from './components/wallet/Wallet';
-import Footer from './components/footer/Footer';
-import {BrowserRouter,Link,Routes,Route} from 'react-router-dom';
+import Wallet from './components/wallet/Wallet.js';
+import Footer from './components/footer/Footer.js';
+import Lottery from './components/lottery/Lottery.js';
+import Borrow from './components/borrow/Borrow.js';
+import Swap from './components/swap/Swap.js';
+import Nft from './components/nft/Nfts.js';
+import Dashboard from './components/dashboard/Dashboard.js';
+import {BrowserRouter,Routes,Route} from 'react-router-dom';
 
 
 function App() {
-    return ( <DAppProvider config = {
+    
+    return ( <div class="App"><DAppProvider config = {
             {
                 supportedChains: [ChainId.Kovan, ChainId.Rinkeby, ChainId.Avalanche, ChainId.BSC,
                     ChainId.Fantom, ChainId.Mainnet, ChainId.Ropsten, ChainId.xDai
                 ]
             }
         } >
+        <BrowserRouter>
         <Header/>
-        <Home/>
-        {/* <Stake/> */}
-        {/* <Footer/> */}
-
-
-        {/* <BrowserRouter>
         <Routes>
-        <Route path="Home" component={Home}/>
-        <Route path="Stake" component={Stake}/>
-        <Route path="Wallet" component={Wallet}/>
+        <Route path="Home" element={<Home/>}/>
+        <Route path="Stake" element={<Stake/>}/>
+        <Route path="Nft" element={<Nft/>}/>
+        <Route path="Dashboard" element={<Dashboard/>}/>
+        <Route path="Swap" element={<Swap/>}/>
+        <Route path="Lottery" element={<Lottery/>}/>
+        <Route path="Borrow" element={<Borrow/>}/>
+        <Route path="Wallet" element={<Wallet/>}/>
         </Routes>
-        </BrowserRouter> */}
+        <Footer/>
+
+        </BrowserRouter>
         
         </DAppProvider>
+        </div>
     );
 }
 

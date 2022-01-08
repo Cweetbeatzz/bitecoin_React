@@ -54,12 +54,6 @@ function Home() {
    </div>
   </TextItem>
     <br></br>
-  {/* <Stake/> */}
-    <br></br>
-  {/* <Wallet/> */}
-    <br></br>
-    <Footer/>
-
   </Container>
  )
 }

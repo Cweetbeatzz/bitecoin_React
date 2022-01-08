@@ -3,11 +3,11 @@ import React from 'react'
 function Footer() {
  return (
   <div>
-               <hr class="text-white p-0"/>
+ <hr class="text-white p-0"/>
 
     <footer >
-        <div class="container text-center text-white">
-            &copy; BITECOIN.COM
+        <div class=" text-center text-white">
+            &copy; BITECOIN
         </div>
     </footer>
     <br/>

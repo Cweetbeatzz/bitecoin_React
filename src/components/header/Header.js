@@ -1,7 +1,7 @@
 import React from 'react'
 import {Container,Menu,RightMenu,CustomMenu,BurgerNav} from './Header.styles';
 import {  useEthers } from '@usedapp/core';
-import {BrowserRouter,Link,Routes,Route} from 'react-router-dom';
+import {Link} from 'react-router-dom';
 
 
 function Header() {
@@ -11,17 +11,18 @@ function Header() {
 
  return (
       <Container>
-                <a href="Index"><strong>BITECOIN</strong></a>
+                <a href="home"><strong>BITECOIN</strong></a>
                <Menu>
                    
-                    <a href="home">dashboard</a> 
-                    <a href="deposit">deposit</a>
-                    <a href="farm">farm</a>
-                    <a href="stake">stake</a>
-                    <a href="lottery">lottery</a> 
-                    <a href="swap">swap</a> 
-                    <a href="nfts">nfts</a> 
-                    <a href="borrow">borrow</a>
+                    <Link to="dashboard">dashboard</Link> 
+                    <Link to="deposit">deposit</Link>
+                    <Link to="farm">farm</Link>
+                    <Link to ="stake">stake</Link>
+                    <Link to="lottery">lottery</Link> 
+                    <Link to="swap">swap</Link> 
+                    <Link to="nfts">nfts</Link> 
+                    <Link to="borrow">borrow</Link>
+                    <Link to="wallet">wallet</Link>
               
                </Menu>
                <RightMenu>

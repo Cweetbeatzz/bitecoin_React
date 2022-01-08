@@ -1,8 +1,11 @@
 import React from 'react'
+import './Stake.styles.css';
 
 function Stake() {
  return (
   <div class="container ">
+    <br/>
+    <br/>
       <div>
         <h4 class="text-center text-warning"><strong>STAKING POOL</strong></h4>
      </div>
