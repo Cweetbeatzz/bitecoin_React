@@ -1,4 +1,5 @@
 import React from "react";
+import "./Deposit.styles.css";
 
 function Deposit() {
   return (
@@ -19,9 +20,9 @@ function Deposit() {
             <strong>AVAILABLE COINS TO DEPOSIT</strong>
           </p>
 
-          <div class="card">
-            <div class="card-body">
-              <table class="table">
+          <div class="card " id="backgoundcolor">
+            <div class="card-body ">
+              <table class="table ">
                 <thead>
                   <tr>
                     <th scope="col">#</th>
@@ -54,7 +55,7 @@ function Deposit() {
                   <tr>
                     <th scope="row">
                       <img
-                        src="images/multi-collateral-dai-dai-logo.png"
+                        src="images/usd-coin-usdc-logo.png"
                         class="artwork"
                         height="30"
                         width="30"
@@ -74,7 +75,7 @@ function Deposit() {
                   <tr>
                     <th scope="row">
                       <img
-                        src="images/multi-collateral-dai-dai-logo.png"
+                        src="images/trueusd-tusd-logo.png"
                         class="artwork"
                         height="30"
                         width="30"
@@ -94,7 +95,7 @@ function Deposit() {
                   <tr>
                     <th scope="row">
                       <img
-                        src="images/multi-collateral-dai-dai-logo.png"
+                        src="images/logo.png"
                         class="artwork"
                         height="30"
                         width="30"
@@ -114,7 +115,7 @@ function Deposit() {
                   <tr>
                     <th scope="row">
                       <img
-                        src="images/multi-collateral-dai-dai-logo.png"
+                        src="images/gemini-dollar-gusd-logo.png"
                         class="artwork"
                         height="30"
                         width="30"
@@ -134,7 +135,7 @@ function Deposit() {
                 </tbody>
               </table>
               <div class="text-center  mb-3">
-                <a href="link" class="btn btn-primary">
+                <a href="link" class="btn btn-warning">
                   CONNECT WALLET
                 </a>
               </div>
@@ -156,7 +157,7 @@ function Deposit() {
                     <input class="form-control mb-1" placeholder="0.0" />
                   </div>
                   <div class="text-center mb-3">
-                    <a href="link" class="btn btn-primary">
+                    <a href="link" class="btn btn-dark">
                       SWAP
                     </a>
                   </div>

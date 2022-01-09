@@ -42,7 +42,7 @@ function Home() {
             </h5>
           </div>
           <div class="text-center">
-            <a class="btn button btn-primary" href="https://Blockchain.com">
+            <a class="btn button btn-warning" href="https://Blockchain.com">
               <strong>LEARN MORE</strong>
             </a>
           </div>
@@ -50,7 +50,13 @@ function Home() {
       </TextItem>
       <br />
       <br />
-
+      <hr class="text-white" />
+      <div class="text-center">
+        <h4 class=" text-warning">
+          <strong>MARKETS</strong>
+        </h4>
+      </div>
+      <br />
       <div class="container ">
         <div class="row justify-content-center">
           <div class="d-flex mx-auto justify-content-center">
@@ -65,16 +71,7 @@ function Home() {
             </div>
             <div class="advertimages">
               <img
-                src="images/Ethereum-Logo.wine.png"
-                class="artwork"
-                height="70"
-                width="110"
-                alt=""
-              />
-            </div>
-            <div class="advertimages">
-              <img
-                src="images/multi-collateral-dai-dai-logo.png"
+                src="images/gemini-dollar-gusd-logo.png"
                 class="artwork"
                 height="70"
                 width="70"
@@ -83,7 +80,7 @@ function Home() {
             </div>
             <div class="advertimages">
               <img
-                src="images/multi-collateral-dai-dai-logo.png"
+                src="images/usd-coin-usdc-logo.png"
                 class="artwork"
                 height="70"
                 width="70"
@@ -92,7 +89,34 @@ function Home() {
             </div>
             <div class="advertimages">
               <img
-                src="images/multi-collateral-dai-dai-logo.png"
+                src="images/trueusd-tusd-logo.png"
+                class="artwork"
+                height="70"
+                width="70"
+                alt=""
+              />
+            </div>
+            <div class="advertimages">
+              <img
+                src="images/chainlink-link-logo.png"
+                class="artwork"
+                height="70"
+                width="70"
+                alt=""
+              />
+            </div>
+            <div class="advertimages">
+              <img
+                src="images/Ethereum_logo_2014.svg.png"
+                class="artwork"
+                height="70"
+                width="70"
+                alt=""
+              />
+            </div>
+            <div class="advertimages">
+              <img
+                src="images/aave-aave-logo.png"
                 class="artwork"
                 height="70"
                 width="70"

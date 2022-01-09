@@ -58,7 +58,7 @@ function Borrow() {
                   <tr>
                     <th scope="row">
                       <img
-                        src="images/multi-collateral-dai-dai-logo.png"
+                        src="images/usd-coin-usdc-logo.png"
                         class="artwork"
                         height="30"
                         width="30"
@@ -81,7 +81,7 @@ function Borrow() {
                   <tr>
                     <th scope="row">
                       <img
-                        src="images/multi-collateral-dai-dai-logo.png"
+                        src="images/trueusd-tusd-logo.png"
                         class="artwork"
                         height="30"
                         width="30"
@@ -104,7 +104,7 @@ function Borrow() {
                   <tr>
                     <th scope="row">
                       <img
-                        src="images/multi-collateral-dai-dai-logo.png"
+                        src="images/logo.png"
                         class="artwork"
                         height="30"
                         width="30"
@@ -127,7 +127,7 @@ function Borrow() {
                   <tr>
                     <th scope="row">
                       <img
-                        src="images/multi-collateral-dai-dai-logo.png"
+                        src="images/gemini-dollar-gusd-logo.png"
                         class="artwork"
                         height="30"
                         width="30"
