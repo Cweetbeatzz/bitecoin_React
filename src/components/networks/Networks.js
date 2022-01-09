@@ -43,7 +43,7 @@ function Networks() {
         <div class="d-flex m-3 mr-1 mx-auto justify-content-center">
           <div class="col-3 m-1 ">
             <button class="btn btn-warning w-100  text-uppercase" href="ether">
-              Mainnet
+              Polygon
             </button>
           </div>
           <div class="col-3 m-1 ">

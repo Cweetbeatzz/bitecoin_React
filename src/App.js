@@ -16,7 +16,7 @@ import Lottery from "./components/lottery/Lottery.js";
 import Borrow from "./components/borrow/Borrow.js";
 import Swap from "./components/swap/Swap.js";
 import Deposit from "./components/deposit/Deposit.js";
-import Nft from "./components/nft/Nfts.js";
+import Nfts from "./components/nft/Nfts.js";
 import Dashboard from "./components/dashboard/Dashboard.js";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
@@ -40,9 +40,10 @@ function App() {
         <BrowserRouter>
           <Header />
           <Routes>
+            <Route path="*" element={<Home />} />
             <Route path="Home" element={<Home />} />
             <Route path="Stake" element={<Stake />} />
-            <Route path="Nft" element={<Nft />} />
+            <Route path="nfts" element={<Nfts />} />
             <Route path="Dashboard" element={<Dashboard />} />
             <Route path="Swap" element={<Swap />} />
             <Route path="Lottery" element={<Lottery />} />

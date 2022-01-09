@@ -17,7 +17,7 @@ function Deposit() {
       <div class=" d-flex mx-auto m-1 justify-content-center">
         <div class="container-fluid m-2">
           <p class="text-white">
-            <strong>AVAILABLE COINS TO DEPOSIT</strong>
+            <strong>AVAILABLE ASSETS TO DEPOSIT</strong>
           </p>
 
           <div class="card " id="backgoundcolor">

@@ -8,7 +8,7 @@ function Swap() {
       <div>
         <hr class="text-white p-0" />
         <h4 class="text-center text-warning">
-          <strong>SWAP TOKEN</strong>
+          <strong>SWAP ASSET</strong>
         </h4>
         <hr class="text-white p-0" />
         <br />

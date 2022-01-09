@@ -16,7 +16,7 @@ function Borrow() {
       <div class=" d-flex mx-auto m-1 justify-content-center">
         <div class="container-fluid m-2">
           <p class="text-white">
-            <strong>AVAILABLE COINS TO BORROW</strong>
+            <strong>AVAILABLE ASSETS TO BORROW</strong>
           </p>
 
           <div class="card">
