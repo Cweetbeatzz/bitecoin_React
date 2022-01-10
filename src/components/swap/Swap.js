@@ -1,4 +1,5 @@
 import React from "react";
+import "./Swap.styles.css";
 
 function Swap() {
   return (
@@ -15,16 +16,17 @@ function Swap() {
       </div>
       <div class="col-10 d-flex mx-auto m-1 justify-content-center">
         <div class="col-9 m-2">
-          <div class="card shadow bg-light bg-opacity-25">
+          <div class="cont shadow ">
             <div class="card-body mx-auto w-100 justify-content-center">
               <div>
-                <h4 class="card-title text-center text-white">
-                  <strong>SWAP</strong>
-                </h4>
-                <hr class="btn-dark" />
+                <hr class="text-white" />
               </div>
 
               <div class="text-center ">
+                <p class=" btn btn-dark text-warning">
+                  <strong>TRADE TOKENS INSTANTLY</strong>
+                </p>
+                <br />
                 <label class="btn-outline-warning">PAY</label>
                 <br />
                 <div class="d-flex justify-content-center">
@@ -81,21 +83,28 @@ function Swap() {
 
               <div class="text-center mb-3">
                 <a href="link" class="btn btn-dark w-25">
-                  SWAP
+                  <strong> SWAP</strong>
                 </a>
               </div>
-              <hr class="text-black p-0" />
+              <hr class="text-white p-0" />
 
-              {/* <div class="text-center  mb-3">
+              <div class="text-center  mb-3">
                 <a href="link" class="btn btn-warning">
                   CONNECT WALLET
                 </a>
-              </div> */}
+              </div>
             </div>
           </div>
         </div>
       </div>
+      <br />
+      <br />
 
+      <div class=" p-0">
+        <a href="link" class="text-white">
+          Need help?
+        </a>
+      </div>
       <br />
       <br />
       <br />

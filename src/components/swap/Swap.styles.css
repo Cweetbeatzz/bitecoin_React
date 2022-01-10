@@ -7,7 +7,11 @@
   border-radius: 100px;
 }
 
-.card {
-  background-color: rgba(182, 173, 173, 0.275);
-  border-radius: 10px 10px;
+.cont {
+  background-color: rgba(130, 130, 158, 0.61);
+  border-radius: 20px 20px;
+}
+
+a {
+  text-decoration: none;
 }

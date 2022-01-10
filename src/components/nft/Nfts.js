@@ -12,10 +12,10 @@ function Nfts() {
         </h1>
         <hr class="text-white p-0" />
       </div>
-      <hr />
+      {/* <hr /> */}
 
       <div class="nft-container ">
-        <div class="col-3 mx-auto m-4">
+        <div class=" col-3 mx-auto m-4">
           <div class="w-100">
             <h5 class="text-warning">STATUS</h5>
             <div class="justify-content-center row">
@@ -141,7 +141,6 @@ function Nfts() {
             </div>
           </div>
         </div>
-
         <div class="col-9 mx-auto m-4">
           <div class="container-fluid p-5 bg-light row bg-opacity-10">
             <div class="nftcards justify-content-center justify-content-evenly ">

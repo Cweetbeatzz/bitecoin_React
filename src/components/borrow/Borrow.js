@@ -19,20 +19,30 @@ function Borrow() {
             <strong>AVAILABLE ASSETS TO BORROW</strong>
           </p>
 
-          <div class="card">
+          <div class="bg-gradient">
             <div class="card-body">
               <table class="table">
                 <thead>
-                  <tr>
-                    <th scope="col">#</th>
-                    <th scope="col">ASSET</th>
-                    <th scope="col">AVAILABLE TO BORROW</th>
-                    <th scope="col">VARIABLE APY</th>
-                    <th scope="col">STABLE APY</th>
+                  <tr class="text-warning">
+                    <th scope="col">
+                      <strong>#</strong>
+                    </th>
+                    <th scope="col">
+                      <strong>ASSET</strong>
+                    </th>
+                    <th scope="col">
+                      <strong>WALLET BALANCE</strong>
+                    </th>
+                    <th scope="col">
+                      <strong>APY</strong>
+                    </th>
+                    <th scope="col">
+                      <strong>STABLE APY</strong>
+                    </th>
                   </tr>
                 </thead>
                 <tbody>
-                  <tr>
+                  <tr class="text-white">
                     <th scope="row">
                       <img
                         src="images/multi-collateral-dai-dai-logo.png"
@@ -55,7 +65,7 @@ function Borrow() {
                       <strong>10.05%</strong>
                     </td>
                   </tr>
-                  <tr>
+                  <tr class="text-white">
                     <th scope="row">
                       <img
                         src="images/usd-coin-usdc-logo.png"
@@ -78,7 +88,7 @@ function Borrow() {
                       <strong>0.80%</strong>
                     </td>
                   </tr>
-                  <tr>
+                  <tr class="text-white">
                     <th scope="row">
                       <img
                         src="images/trueusd-tusd-logo.png"
@@ -101,7 +111,7 @@ function Borrow() {
                       <strong>1.56%</strong>
                     </td>
                   </tr>
-                  <tr>
+                  <tr class="text-white">
                     <th scope="row">
                       <img
                         src="images/logo.png"
@@ -124,7 +134,7 @@ function Borrow() {
                       <strong>2.99%</strong>
                     </td>
                   </tr>
-                  <tr>
+                  <tr class="text-white">
                     <th scope="row">
                       <img
                         src="images/gemini-dollar-gusd-logo.png"

@@ -20,19 +20,27 @@ function Deposit() {
             <strong>AVAILABLE ASSETS TO DEPOSIT</strong>
           </p>
 
-          <div class="card shadow" id="backgoundcolor">
+          <div class="shadow bg-gradient " id="backgoundcolor">
             <div class="card-body ">
               <table class="table ">
                 <thead>
-                  <tr>
-                    <th scope="col">#</th>
-                    <th scope="col">ASSET</th>
-                    <th scope="col">WALLET BALANCE</th>
-                    <th scope="col">APY</th>
+                  <tr class="text-warning">
+                    <th scope="col">
+                      <strong>#</strong>
+                    </th>
+                    <th scope="col">
+                      <strong>ASSET</strong>
+                    </th>
+                    <th scope="col">
+                      <strong>WALLET BALANCE</strong>
+                    </th>
+                    <th scope="col">
+                      <strong>APY</strong>
+                    </th>
                   </tr>
                 </thead>
                 <tbody>
-                  <tr>
+                  <tr class="text-white">
                     <th scope="row">
                       <img
                         src="images/multi-collateral-dai-dai-logo.png"
@@ -52,7 +60,7 @@ function Deposit() {
                       <strong>2.81%</strong>
                     </td>
                   </tr>
-                  <tr>
+                  <tr class="text-white">
                     <th scope="row">
                       <img
                         src="images/usd-coin-usdc-logo.png"
@@ -72,7 +80,7 @@ function Deposit() {
                       <strong>10.05%</strong>
                     </td>
                   </tr>
-                  <tr>
+                  <tr class="text-white">
                     <th scope="row">
                       <img
                         src="images/trueusd-tusd-logo.png"
@@ -92,7 +100,7 @@ function Deposit() {
                       <strong>0.80%</strong>
                     </td>
                   </tr>
-                  <tr>
+                  <tr class="text-white">
                     <th scope="row">
                       <img
                         src="images/logo.png"
@@ -112,7 +120,7 @@ function Deposit() {
                       <strong>1.56%</strong>
                     </td>
                   </tr>
-                  <tr>
+                  <tr class="text-white">
                     <th scope="row">
                       <img
                         src="images/gemini-dollar-gusd-logo.png"
@@ -144,21 +152,44 @@ function Deposit() {
           <br />
           <br />
 
-          <div class="col-7">
-            <div class="mx-auto text-center ">
-              <div class="card">
-                <div class="card-body">
+          <div class="col-12 ">
+            <div class="col-8 m-2 mx-auto">
+              <div class="card bg-light bg-opacity-25">
+                <div class="card-body ">
+                  <div>
+                    <h4 class="card-title text-center text-warning">
+                      <strong>DEPOSIT</strong>
+                    </h4>
+                    <hr class="text-white" />
+                  </div>
+
+                  <div class="form-group"></div>
                   <div class="text-center">
-                    <label>Price</label>
+                    <label>
+                      <strong>Price</strong>
+                    </label>
                     <input class="form-control mb-1" placeholder="0.0" />
                   </div>
                   <div class="text-center">
-                    <label>Amount</label>
+                    <label>
+                      <strong>Amount</strong>
+                    </label>
                     <input class="form-control mb-1" placeholder="0.0" />
+                  </div>
+
+                  <div class=" p-2 m-2 text-center text-white">
+                    <p>Deposit to start a transaction.</p>
                   </div>
                   <div class="text-center mb-3">
-                    <a href="link" class="btn btn-dark">
-                      SWAP
+                    <a href="link" class="btn btn-dark w-25">
+                      <strong>DEPOSIT</strong>
+                    </a>
+                  </div>
+                  <hr class="text-white" />
+
+                  <div class="text-center  mb-3">
+                    <a href="link" class="btn btn-warning">
+                      <strong>CONNECT WALLET</strong>
                     </a>
                   </div>
                 </div>
