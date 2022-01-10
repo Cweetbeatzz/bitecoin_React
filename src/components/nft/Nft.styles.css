@@ -1,5 +1,5 @@
 .nftimages {
-  height: 250px;
+  height: 200px;
 }
 
 .nft-container {
@@ -12,6 +12,14 @@
 
 .card {
   border-radius: 5px;
+}
+
+.a {
+  text-decoration: none;
+}
+
+.ethlogo {
+  width: 10px;
 }
 
 @media screen and (max-width: 768px) {

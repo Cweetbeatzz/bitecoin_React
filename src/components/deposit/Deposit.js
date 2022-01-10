@@ -20,7 +20,7 @@ function Deposit() {
             <strong>AVAILABLE ASSETS TO DEPOSIT</strong>
           </p>
 
-          <div class="card " id="backgoundcolor">
+          <div class="card shadow" id="backgoundcolor">
             <div class="card-body ">
               <table class="table ">
                 <thead>

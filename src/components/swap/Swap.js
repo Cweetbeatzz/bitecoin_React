@@ -15,17 +15,17 @@ function Swap() {
       </div>
       <div class="col-10 d-flex mx-auto m-1 justify-content-center">
         <div class="col-9 m-2">
-          <div class="card">
+          <div class="card shadow bg-light bg-opacity-25">
             <div class="card-body mx-auto w-100 justify-content-center">
               <div>
-                <h4 class="card-title text-center">
+                <h4 class="card-title text-center text-white">
                   <strong>SWAP</strong>
                 </h4>
                 <hr class="btn-dark" />
               </div>
 
               <div class="text-center ">
-                <label>Pay</label>
+                <label class="btn-outline-warning">PAY</label>
                 <br />
                 <div class="d-flex justify-content-center">
                   <div class="form-group col-3 mx-2 ">
@@ -42,7 +42,7 @@ function Swap() {
               </div>
 
               <br />
-              <div class="" id="arrowexchange">
+              <div class="  text-warning" id="arrowexchange">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="16"
@@ -58,9 +58,12 @@ function Swap() {
                 </svg>
               </div>
               <br />
+              <br />
 
               <div class="text-center">
-                <label>Recieve</label>
+                <label class="btn-outline-warning">RECIEVE</label>
+                <br />
+
                 <div class="d-flex justify-content-center">
                   <div class="form-group col-3 mx-2">
                     <select class="form-control">
@@ -77,17 +80,17 @@ function Swap() {
               <br />
 
               <div class="text-center mb-3">
-                <a href="link" class="btn btn-dark">
+                <a href="link" class="btn btn-dark w-25">
                   SWAP
                 </a>
               </div>
               <hr class="text-black p-0" />
 
-              <div class="text-center  mb-3">
+              {/* <div class="text-center  mb-3">
                 <a href="link" class="btn btn-warning">
                   CONNECT WALLET
                 </a>
-              </div>
+              </div> */}
             </div>
           </div>
         </div>

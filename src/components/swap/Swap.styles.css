@@ -4,5 +4,10 @@
 }
 
 .arrowexchange {
-  border-radius: 5px;
+  border-radius: 100px;
+}
+
+.card {
+  background-color: rgba(182, 173, 173, 0.275);
+  border-radius: 10px 10px;
 }

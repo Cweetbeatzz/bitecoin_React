@@ -21,7 +21,7 @@ function Header() {
       <Menu>
         <Link to="dashboard">dashboard</Link>
         <Link to="deposit">deposit</Link>
-        <Link to="farm">farm</Link>
+        <Link to="pools">pools</Link>
         <Link to="stake">stake</Link>
         <Link to="lottery">lottery</Link>
         <Link to="swap">swap</Link>
