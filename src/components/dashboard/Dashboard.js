@@ -1,11 +1,12 @@
-import React from 'react'
+import React from "react";
+import "./Dashboard.styles.css";
 
 function Dashboard() {
- return (
-  <div>
-   
-  </div>
- )
+  return (
+    <div>
+      <canvas id="chart"></canvas>
+    </div>
+  );
 }
 
-export default Dashboard
+export default Dashboard;
