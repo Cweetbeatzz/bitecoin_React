@@ -15,19 +15,19 @@ function Home() {
       <TextItem>
         <br />
         <br />
-        <div class="col-12">
-          <div class="col-6 mx-auto">
-            <div class="text-center d-flex">
-              <hr class="text-white" />
-              <h4 class="mx-auto text-center text-warning">
+        <div className="col-12">
+          <div className="col-6 mx-auto">
+            <div className="text-center d-flex">
+              <hr className="text-white" />
+              <h4 className="mx-auto text-center text-warning">
                 <strong> ABOUT BITCOIN</strong>
               </h4>
-              <hr class="text-white p-0" />
+              <hr className="text-white p-0" />
             </div>
           </div>
 
           <div>
-            <h5 class="text-white text-center  p-5">
+            <h5 className="text-white text-center  p-5">
               Bitcoin (BTC) is the world’s first decentralised cryptocurrency.
               It was created in 2009 by Satoshi Nakamoto, whose true identity is
               still yet to be confirmed. It follows a set of ideas first
@@ -41,8 +41,8 @@ function Home() {
               unit is known as a satoshi.
             </h5>
           </div>
-          <div class="text-center">
-            <a class="btn button btn-warning" href="https://Blockchain.com">
+          <div className="text-center">
+            <a className="btn button btn-warning" href="https://Blockchain.com">
               <strong>LEARN MORE</strong>
             </a>
           </div>
@@ -50,74 +50,74 @@ function Home() {
       </TextItem>
       <br />
       <br />
-      <hr class="text-white" />
-      <div class="text-center">
-        <h4 class=" text-warning">
+      <hr className="text-white" />
+      <div className="text-center">
+        <h4 className=" text-warning">
           <strong>MARKETS</strong>
         </h4>
       </div>
       <br />
-      <div class="container ">
-        <div class="row justify-content-center">
-          <div class="d-flex mx-auto justify-content-center">
-            <div class="advertimages">
+      <div className="container ">
+        <div className="row justify-content-center">
+          <div className="d-flex mx-auto justify-content-center">
+            <div className="advertimages">
               <img
                 src="images/multi-collateral-dai-dai-logo.png"
-                class="artwork"
+                className="artwork"
                 height="70"
                 width="70"
                 alt=""
               />
             </div>
-            <div class="advertimages">
+            <div className="advertimages">
               <img
                 src="images/gemini-dollar-gusd-logo.png"
-                class="artwork"
+                className="artwork"
                 height="70"
                 width="70"
                 alt=""
               />
             </div>
-            <div class="advertimages">
+            <div className="advertimages">
               <img
                 src="images/usd-coin-usdc-logo.png"
-                class="artwork"
+                className="artwork"
                 height="70"
                 width="70"
                 alt=""
               />
             </div>
-            <div class="advertimages">
+            <div className="advertimages">
               <img
                 src="images/trueusd-tusd-logo.png"
-                class="artwork"
+                className="artwork"
                 height="70"
                 width="70"
                 alt=""
               />
             </div>
-            <div class="advertimages">
+            <div className="advertimages">
               <img
                 src="images/chainlink-link-logo.png"
-                class="artwork"
+                className="artwork"
                 height="70"
                 width="70"
                 alt=""
               />
             </div>
-            <div class="advertimages">
+            <div className="advertimages">
               <img
                 src="images/Ethereum_logo_2014.svg.png"
-                class="artwork"
+                className="artwork"
                 height="70"
                 width="70"
                 alt=""
               />
             </div>
-            <div class="advertimages">
+            <div className="advertimages">
               <img
                 src="images/aave-aave-logo.png"
-                class="artwork"
+                className="artwork"
                 height="70"
                 width="70"
                 alt=""

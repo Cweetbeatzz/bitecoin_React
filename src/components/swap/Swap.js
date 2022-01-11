@@ -3,54 +3,57 @@ import "./Swap.styles.css";
 
 function Swap() {
   return (
-    <div class="container ">
+    <div className="container ">
       <br />
       <br />
       <div>
-        <hr class="text-white p-0" />
-        <h4 class="text-center text-warning">
+        <hr className="text-white p-0" />
+        <h4 className="text-center text-warning">
           <strong>SWAP ASSET</strong>
         </h4>
-        <hr class="text-white p-0" />
+        <hr className="text-white p-0" />
         <br />
       </div>
-      <div class="col-10 d-flex mx-auto m-1 justify-content-center">
-        <div class="col-9 m-2">
-          <div class="cont shadow ">
-            <div class="card-body mx-auto w-100 justify-content-center">
+      <div className="col-10 d-flex mx-auto m-1 justify-content-center">
+        <div className="col-9 m-2">
+          <div className="cont shadow ">
+            <div className="card-body mx-auto w-100 justify-content-center">
               <div>
-                <hr class="text-white" />
+                <hr className="text-white" />
               </div>
 
-              <div class="text-center ">
-                <p class=" btn btn-dark text-warning">
+              <div className="text-center ">
+                <p className=" btn btn-dark text-warning">
                   <strong>TRADE TOKENS INSTANTLY</strong>
                 </p>
                 <br />
-                <label class="btn-outline-warning">PAY</label>
+                <label className="btn-outline-warning">PAY</label>
                 <br />
-                <div class="d-flex justify-content-center">
-                  <div class="form-group col-3 mx-2 ">
-                    <select class="form-control">
-                      <option class="form-control" value="0">
+                <div className="d-flex justify-content-center">
+                  <div className="form-group col-3 mx-2 ">
+                    <select className="form-control">
+                      <option className="form-control" value="0">
                         Choose Asset...
                       </option>
                     </select>
                   </div>
-                  <div class="form-group col-8">
-                    <input class="form-control" placeholder="0.0" />
+                  <div className="form-group col-8">
+                    <input className="form-control" placeholder="0.0" />
                   </div>
                 </div>
               </div>
 
               <br />
-              <div class="  text-warning" id="arrowexchange">
+              <div
+                className="text-warning arrowexchange mx-auto"
+                id="arrowexchange"
+              >
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="16"
                   height="16"
                   fill="currentColor"
-                  class="bi bi-arrow-down-up"
+                  className="bi bi-arrow-down-up"
                   viewBox="0 0 16 16"
                 >
                   <path
@@ -62,34 +65,34 @@ function Swap() {
               <br />
               <br />
 
-              <div class="text-center">
-                <label class="btn-outline-warning">RECIEVE</label>
+              <div className="text-center">
+                <label className="btn-outline-warning">RECIEVE</label>
                 <br />
 
-                <div class="d-flex justify-content-center">
-                  <div class="form-group col-3 mx-2">
-                    <select class="form-control">
-                      <option class="form-control" value="0">
+                <div className="d-flex justify-content-center">
+                  <div className="form-group col-3 mx-2">
+                    <select className="form-control">
+                      <option className="form-control" value="0">
                         Choose Asset...
                       </option>
                     </select>
                   </div>
-                  <div class="form-group col-8">
-                    <input class="form-control" placeholder="0.0" />
+                  <div className="form-group col-8">
+                    <input className="form-control" placeholder="0.0" />
                   </div>
                 </div>
               </div>
               <br />
 
-              <div class="text-center mb-3">
-                <a href="link" class="btn btn-dark w-25">
+              <div className="text-center mb-3">
+                <a href="link" className="btn btn-dark w-25">
                   <strong> SWAP</strong>
                 </a>
               </div>
-              <hr class="text-white p-0" />
+              <hr className="text-white p-0" />
 
-              <div class="text-center  mb-3">
-                <a href="link" class="btn btn-warning">
+              <div className="text-center  mb-3">
+                <a href="link" className="btn btn-warning">
                   CONNECT WALLET
                 </a>
               </div>
@@ -100,8 +103,8 @@ function Swap() {
       <br />
       <br />
 
-      <div class=" p-0">
-        <a href="link" class="text-white">
+      <div className=" p-0">
+        <a href="link" className="text-white">
           Need help?
         </a>
       </div>

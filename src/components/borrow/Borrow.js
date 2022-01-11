@@ -2,28 +2,28 @@ import React from "react";
 
 function Borrow() {
   return (
-    <div class="container ">
+    <div className="container ">
       <br />
       <br />
       <div>
-        <hr class="text-white p-0" />
-        <h4 class="text-center text-warning">
+        <hr className="text-white p-0" />
+        <h4 className="text-center text-warning">
           <strong>BORROW</strong>
         </h4>
-        <hr class="text-white p-0" />
+        <hr className="text-white p-0" />
       </div>
 
-      <div class=" d-flex mx-auto m-1 justify-content-center">
-        <div class="container-fluid m-2">
-          <p class="text-white">
+      <div className=" d-flex mx-auto m-1 justify-content-center">
+        <div className="container-fluid m-2">
+          <p className="text-white">
             <strong>AVAILABLE ASSETS TO BORROW</strong>
           </p>
 
-          <div class="bg-gradient">
-            <div class="card-body">
-              <table class="table">
+          <div className="bg-gradient">
+            <div className="card-body">
+              <table className="table">
                 <thead>
-                  <tr class="text-warning">
+                  <tr className="text-warning">
                     <th scope="col">
                       <strong>#</strong>
                     </th>
@@ -42,11 +42,11 @@ function Borrow() {
                   </tr>
                 </thead>
                 <tbody>
-                  <tr class="text-white">
+                  <tr className="text-white">
                     <th scope="row">
                       <img
                         src="images/multi-collateral-dai-dai-logo.png"
-                        class="artwork"
+                        className="artwork"
                         height="30"
                         width="30"
                         alt=""
@@ -65,11 +65,11 @@ function Borrow() {
                       <strong>10.05%</strong>
                     </td>
                   </tr>
-                  <tr class="text-white">
+                  <tr className="text-white">
                     <th scope="row">
                       <img
                         src="images/usd-coin-usdc-logo.png"
-                        class="artwork"
+                        className="artwork"
                         height="30"
                         width="30"
                         alt=""
@@ -88,11 +88,11 @@ function Borrow() {
                       <strong>0.80%</strong>
                     </td>
                   </tr>
-                  <tr class="text-white">
+                  <tr className="text-white">
                     <th scope="row">
                       <img
                         src="images/trueusd-tusd-logo.png"
-                        class="artwork"
+                        className="artwork"
                         height="30"
                         width="30"
                         alt=""
@@ -111,11 +111,11 @@ function Borrow() {
                       <strong>1.56%</strong>
                     </td>
                   </tr>
-                  <tr class="text-white">
+                  <tr className="text-white">
                     <th scope="row">
                       <img
                         src="images/logo.png"
-                        class="artwork"
+                        className="artwork"
                         height="30"
                         width="30"
                         alt=""
@@ -134,11 +134,11 @@ function Borrow() {
                       <strong>2.99%</strong>
                     </td>
                   </tr>
-                  <tr class="text-white">
+                  <tr className="text-white">
                     <th scope="row">
                       <img
                         src="images/gemini-dollar-gusd-logo.png"
-                        class="artwork"
+                        className="artwork"
                         height="30"
                         width="30"
                         alt=""

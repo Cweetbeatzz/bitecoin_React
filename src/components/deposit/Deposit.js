@@ -3,28 +3,28 @@ import "./Deposit.styles.css";
 
 function Deposit() {
   return (
-    <div class="container ">
+    <div className="container ">
       <br />
       <br />
       <div>
-        <hr class="text-white p-0" />
-        <h4 class="text-center text-warning">
+        <hr className="text-white p-0" />
+        <h4 className="text-center text-warning">
           <strong>DEPOSIT</strong>
         </h4>
-        <hr class="text-white p-0" />
+        <hr className="text-white p-0" />
       </div>
 
-      <div class=" d-flex mx-auto m-1 justify-content-center">
-        <div class="container-fluid m-2">
-          <p class="text-white">
+      <div className=" d-flex mx-auto m-1 justify-content-center">
+        <div className="container-fluid m-2">
+          <p className="text-white">
             <strong>AVAILABLE ASSETS TO DEPOSIT</strong>
           </p>
 
-          <div class="shadow bg-gradient " id="backgoundcolor">
-            <div class="card-body ">
-              <table class="table ">
+          <div className="shadow bg-gradient " id="backgoundcolor">
+            <div className="card-body ">
+              <table className="table ">
                 <thead>
-                  <tr class="text-warning">
+                  <tr className="text-warning">
                     <th scope="col">
                       <strong>#</strong>
                     </th>
@@ -40,11 +40,11 @@ function Deposit() {
                   </tr>
                 </thead>
                 <tbody>
-                  <tr class="text-white">
+                  <tr className="text-white">
                     <th scope="row">
                       <img
                         src="images/multi-collateral-dai-dai-logo.png"
-                        class="artwork"
+                        className="artwork"
                         height="30"
                         width="30"
                         alt=""
@@ -60,11 +60,11 @@ function Deposit() {
                       <strong>2.81%</strong>
                     </td>
                   </tr>
-                  <tr class="text-white">
+                  <tr className="text-white">
                     <th scope="row">
                       <img
                         src="images/usd-coin-usdc-logo.png"
-                        class="artwork"
+                        className="artwork"
                         height="30"
                         width="30"
                         alt=""
@@ -80,11 +80,11 @@ function Deposit() {
                       <strong>10.05%</strong>
                     </td>
                   </tr>
-                  <tr class="text-white">
+                  <tr className="text-white">
                     <th scope="row">
                       <img
                         src="images/trueusd-tusd-logo.png"
-                        class="artwork"
+                        className="artwork"
                         height="30"
                         width="30"
                         alt=""
@@ -100,11 +100,11 @@ function Deposit() {
                       <strong>0.80%</strong>
                     </td>
                   </tr>
-                  <tr class="text-white">
+                  <tr className="text-white">
                     <th scope="row">
                       <img
                         src="images/logo.png"
-                        class="artwork"
+                        className="artwork"
                         height="30"
                         width="30"
                         alt=""
@@ -120,11 +120,11 @@ function Deposit() {
                       <strong>1.56%</strong>
                     </td>
                   </tr>
-                  <tr class="text-white">
+                  <tr className="text-white">
                     <th scope="row">
                       <img
                         src="images/gemini-dollar-gusd-logo.png"
-                        class="artwork"
+                        className="artwork"
                         height="30"
                         width="30"
                         alt=""
@@ -142,8 +142,8 @@ function Deposit() {
                   </tr>
                 </tbody>
               </table>
-              <div class="text-center  mb-3">
-                <a href="link" class="btn btn-warning">
+              <div className="text-center  mb-3">
+                <a href="link" className="btn btn-warning">
                   CONNECT WALLET
                 </a>
               </div>
@@ -152,43 +152,43 @@ function Deposit() {
           <br />
           <br />
 
-          <div class="col-12 ">
-            <div class="col-8 m-2 mx-auto">
-              <div class="card bg-light bg-opacity-25">
-                <div class="card-body ">
+          <div className="col-12 ">
+            <div className="col-8 m-2 mx-auto">
+              <div className="card bg-light bg-opacity-25">
+                <div className="card-body ">
                   <div>
-                    <h4 class="card-title text-center text-warning">
+                    <h4 className="card-title text-center text-warning">
                       <strong>DEPOSIT</strong>
                     </h4>
-                    <hr class="text-white" />
+                    <hr className="text-white" />
                   </div>
 
-                  <div class="form-group"></div>
-                  <div class="text-center">
+                  <div className="form-group"></div>
+                  <div className="text-center">
                     <label>
                       <strong>Price</strong>
                     </label>
-                    <input class="form-control mb-1" placeholder="0.0" />
+                    <input className="form-control mb-1" placeholder="0.0" />
                   </div>
-                  <div class="text-center">
+                  <div className="text-center">
                     <label>
                       <strong>Amount</strong>
                     </label>
-                    <input class="form-control mb-1" placeholder="0.0" />
+                    <input className="form-control mb-1" placeholder="0.0" />
                   </div>
 
-                  <div class=" p-2 m-2 text-center text-white">
+                  <div className=" p-2 m-2 text-center text-white">
                     <p>Deposit to start a transaction.</p>
                   </div>
-                  <div class="text-center mb-3">
-                    <a href="link" class="btn btn-dark w-25">
+                  <div className="text-center mb-3">
+                    <a href="link" className="btn btn-dark w-25">
                       <strong>DEPOSIT</strong>
                     </a>
                   </div>
-                  <hr class="text-white" />
+                  <hr className="text-white" />
 
-                  <div class="text-center  mb-3">
-                    <a href="link" class="btn btn-warning">
+                  <div className="text-center  mb-3">
+                    <a href="link" className="btn btn-warning">
                       <strong>CONNECT WALLET</strong>
                     </a>
                   </div>

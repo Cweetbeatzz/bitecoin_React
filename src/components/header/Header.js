@@ -32,11 +32,11 @@ function Header() {
       <RightMenu>
         <div>
           {isConnected ? (
-            <button class="btn btn-warning" onClick={deactivate}>
+            <button className="btn btn-warning" onClick={deactivate}>
               DISCONNECT WALLET
             </button>
           ) : (
-            <button class="btn btn-warning" onClick={activateBrowserWallet}>
+            <button className="btn btn-warning" onClick={activateBrowserWallet}>
               CONNECT WALLET
             </button>
           )}
