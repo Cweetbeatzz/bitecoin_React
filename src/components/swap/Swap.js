@@ -23,7 +23,7 @@ function Swap() {
               </div>
 
               <div className="text-center ">
-                <p className=" btn btn-dark text-warning">
+                <p className=" btn btn-dark text-warning ">
                   <strong>TRADE TOKENS INSTANTLY</strong>
                 </p>
                 <br />
@@ -90,12 +90,6 @@ function Swap() {
                 </a>
               </div>
               <hr className="text-white p-0" />
-
-              <div className="text-center  mb-3">
-                <a href="link" className="btn btn-warning">
-                  CONNECT WALLET
-                </a>
-              </div>
             </div>
           </div>
         </div>
