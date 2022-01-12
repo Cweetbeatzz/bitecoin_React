@@ -23,7 +23,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 function App() {
   return (
-    <div class="App">
+    <div className="App">
       <DAppProvider
         config={{
           supportedChains: [
