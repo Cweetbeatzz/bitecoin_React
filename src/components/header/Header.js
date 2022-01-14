@@ -8,6 +8,7 @@ import {
 } from "./Header.styles";
 import { useEthers } from "@usedapp/core";
 import { Link } from "react-router-dom";
+import "./Header.styles.css";
 
 function Header() {
   const { account, activateBrowserWallet, deactivate } = useEthers();
@@ -37,7 +38,8 @@ function Header() {
             </button>
           ) : (
             <button className="btn btn-warning" onClick={activateBrowserWallet}>
-              CONNECT WALLET
+              <strong>CONNECT WALLET</strong>{" "}
+              <img src="images/metamask.svg" alt="" className="metaimg" />
             </button>
           )}
         </div>

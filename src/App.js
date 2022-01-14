@@ -10,7 +10,7 @@ import {
 import Header from "./components/header/Header.js";
 import Home from "./components/home/Home.js";
 import Stake from "./components/stake/Stake";
-import Wallet from "./components/wallet/Wallet.js";
+import Wallet from "./components/wallet/Wallet.jsx";
 import Footer from "./components/footer/Footer.js";
 import Lottery from "./components/lottery/Lottery.js";
 import Borrow from "./components/borrow/Borrow.js";

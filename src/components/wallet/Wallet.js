@@ -1,55 +1,26 @@
-import React from "react";
+/* eslint-disable no-unused-vars */
+import "./Wallet.jsx";
 
-function Wallet() {
-  return (
-    <div className="container">
-      <br />
-      <hr className="text-white" />
-      <div className="card-head col-4 mx-auto">
-        <div className=" h-100 mx-auto">
-          <h4 className="text-warning d-flex text-center  justify-content-center">
-            <strong>YOUR WALLET</strong>
-          </h4>
-        </div>
-      </div>
-      <hr className="text-white" />
+const links = document.querySelectorAll(".nav-link");
+const active = document.getElementById("gasfees");
+const token = document.getElementById("token");
+const dai = document.getElementById("dai");
+const ethereum = document.getElementById("ethereum");
+const content = document.querySelectorAll(".content");
+const walletsection = document.querySelector(".walletsection");
 
-      <div className="card-body mx-auto col-md-7 col-sm-7 justify-content-between">
-        <ul className="nav nav-tabs ">
-          <li className="nav-item">
-            <a className="nav-link active text-dark" href="link">
-              ETHEREUM
-            </a>
-          </li>
-          <li className="nav-item">
-            <a className="nav-link  text-dark" href="link">
-              DAI
-            </a>
-          </li>
-          <li className="nav-item">
-            <a className="nav-link  text-dark" href="link">
-              TOKEN
-            </a>
-          </li>
-          <li className="nav-item">
-            <a className="nav-link  text-dark" href="link">
-              GAS FEES
-            </a>
-          </li>
-        </ul>
-        <br></br>
-      </div>
-      <br />
-      <br />
-      <br />
+// walletsection.addEventListener("click", function (e) {
+//   const id = e.target.dataset.id;
+//   if (id) {
+//     links.forEach(function (btn) {
+//       btn.classList.remove("active");
+//       e.target.classList.add("active");
+//     });
 
-      {/* <script>
-        const button = document.getElementsByclassNameName("nav-link"); 
-        const active = document.getElementsByclassNameName("active");
-        button.addEventListner("click",function(){})
-      </script> */}
-    </div>
-  );
-}
-
-export default Wallet;
+//     content.forEach(function (contents) {
+//       contents.classList.remove("active");
+//     });
+//     const element = document.getElementById(id);
+//     element.target.classList.add("active");
+//   }
+// });
