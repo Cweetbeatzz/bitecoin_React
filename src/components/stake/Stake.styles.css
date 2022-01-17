@@ -6,3 +6,24 @@
   font-weight: 700;
   font-size: 30px;
 }
+
+#contentbody {
+  display: flex;
+}
+
+@media (max-width: 768px) {
+  #contentbody {
+    display: block;
+  }
+
+  #firblock {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  #secblock {
+    width: 100%;
+  }
+  #farmnotify {
+    width: 100%;
+  }
+}

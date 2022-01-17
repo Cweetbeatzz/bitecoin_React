@@ -14,9 +14,8 @@ function Stake() {
         <hr className="text-white p-0" />
         <br />
       </div>
-
-      <div>
-        <div className="col-6 m-3 bg-gradient">
+      <div className="container">
+        <div className="col-6  bg-gradient" id="farmnotify">
           <p
             className="display-1 justify-content-lg-start  text-warning farms"
             id=""
@@ -42,9 +41,8 @@ function Stake() {
       </div>
       <br />
       <br />
-
-      <div className="col-12 d-flex mx-auto m-1 ">
-        <div className="col-8 m-2">
+      <div className="m-1 gap-2" id="contentbody">
+        <div className="col-8 m-2 mx-auto" id="firblock">
           <div className="card bg-light bg-opacity-25">
             <div className="card-body">
               <div>
@@ -91,7 +89,7 @@ function Stake() {
           </div>
         </div>
 
-        <div className="col-4 m-2">
+        <div className="col-4 m-2 mx-auto" id="secblock">
           <div className=" bg-gradient">
             <div className="card-body">
               <h5 className="card-title text-center text-warning">
@@ -126,7 +124,18 @@ function Stake() {
           </div>
         </div>
       </div>
-
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
       <br />
       <br />
       <br />
