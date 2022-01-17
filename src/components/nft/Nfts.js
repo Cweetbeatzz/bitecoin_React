@@ -12,9 +12,8 @@ function Nfts() {
         </h1>
         <hr className="text-white p-0" />
       </div>
-      {/* <hr /> */}
 
-      <div className="nft-container ">
+      <div className="nft-container">
         <div className=" col-3 mx-auto m-4">
           <div className="w-100">
             <h5 className="text-warning">STATUS</h5>
@@ -142,11 +141,8 @@ function Nfts() {
           </div>
         </div>
 
-        <div className="col-9 mx-auto m-4">
-          <div
-            className="container-fluid p-5 bg-light row bg-opacity-10"
-            id="bloocc"
-          >
+        <div className=" col-9 mx-auto ">
+          <div className=" p-5 bg-light bg-opacity-10 mx-auto" id="bloocc">
             <div className="">
               <div className="gap-2" id="neftflex">
                 <div class="card" id="card">

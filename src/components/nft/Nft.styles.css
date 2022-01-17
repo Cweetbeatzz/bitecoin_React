@@ -99,4 +99,8 @@
   #bloocc {
     width: 100%;
   }
+
+  .nft-container {
+    display: block;
+  }
 }

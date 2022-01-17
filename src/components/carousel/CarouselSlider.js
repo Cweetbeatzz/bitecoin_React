@@ -1,5 +1,5 @@
 import React from "react";
-import { Container } from "../carousel/Carousel.styles";
+import { Container } from "./Carousel.styles";
 import "./carousel.css";
 
 function CarouselSlider() {
@@ -9,7 +9,7 @@ function CarouselSlider() {
         <div className="carousel-inner">
           <div className="carousel-item active caroimg">
             <img
-              className="overflow-hidden img-thumbnail border-0 w-100 h-50 m-0 p-0"
+              className="overflow-hidden img-fluid border-0 w-100 h-50 m-0 p-0"
               src="/images/1440x810_cmsv2_768120c0-804d-5074-b412-98bc494766e7-6213088.jpg"
               alt=""
             />
@@ -35,7 +35,10 @@ function CarouselSlider() {
           role="button"
           data-slide="prev"
         >
-          <span className="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span
+            className="carousel-control-prev-icon"
+            aria-hidden="true"
+          ></span>
           <span className="sr-only">Previous</span>
         </a>
         <a
@@ -44,7 +47,10 @@ function CarouselSlider() {
           role="button"
           data-slide="next"
         >
-          <span className="carousel-control-next-icon" aria-hidden="true"></span>
+          <span
+            className="carousel-control-next-icon"
+            aria-hidden="true"
+          ></span>
           <span className="sr-only">Next</span>
         </a>
       </div>

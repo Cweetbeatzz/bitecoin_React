@@ -26,7 +26,7 @@ function Home() {
             </div>
           </div>
 
-          <div>
+          <div className="container">
             <h5 className="text-white text-center  p-5">
               Bitcoin (BTC) is the world’s first decentralised cryptocurrency.
               It was created in 2009 by Satoshi Nakamoto, whose true identity is

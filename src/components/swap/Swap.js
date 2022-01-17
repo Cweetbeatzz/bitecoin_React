@@ -14,6 +14,11 @@ function Swap() {
         <hr className="text-white p-0" />
         <br />
       </div>
+      <p className="bg-dark p-3 text-warning w-50 mx-auto">
+        <strong>SWAP TOKENS INSTANTLY</strong>
+      </p>
+      <br />
+
       <div className="col-10 d-flex mx-auto m-1 justify-content-center">
         <div className="col-9 m-2">
           <div className="cont shadow ">
@@ -23,9 +28,6 @@ function Swap() {
               </div>
 
               <div className="text-center ">
-                <p className="bg-dark p-3 text-warning ">
-                  <strong>SWAP TOKENS INSTANTLY</strong>
-                </p>
                 <br />
                 <label className="btn-outline-warning pb-2">
                   <strong>PAY</strong>
