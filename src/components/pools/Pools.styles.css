@@ -1,3 +1,8 @@
 .txt {
   color: rgb(255, 255, 255);
 }
+
+#assetpool {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding-left: 20px;
+}

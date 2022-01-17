@@ -7,7 +7,7 @@ function Pools() {
       <br />
 
       <div className="container">
-        <div className=" col-6 m-3 ">
+        <div className=" col-7 m-3 ">
           <h3 className="display-5 justify-content-lg-start pl-3 text-warning text-start ">
             <span className="d-flex">
               <strong className="font-weight-bold">
@@ -53,23 +53,26 @@ function Pools() {
 
       <br />
       <br />
-      <br />
-      <br />
 
       <div className="d-flex container bg-gradient">
         <div className="col-6 m-3"></div>
 
         <div className="col-6 m-3">
-          <h1 className="display-3 justify-content-lg-start pl-3 text-warning px-3">
+          <h1
+            className="display-3 justify-content-lg-start pl-3 text-warning "
+            id="assetpool"
+          >
             <strong>Asset Pools...</strong>
           </h1>
           <div className="justify-content-lg-start px-3">
             <h6 className="txt p-3">
               Stake some token to earn. Remember High APR,low risk...
             </h6>
-            <br />
           </div>
         </div>
+      </div>
+      <div className="container">
+        <hr className="text-white" />
       </div>
 
       <div>
@@ -215,6 +218,31 @@ function Pools() {
             <br />
           </div>
         </div>
+      </div>
+
+      <div className="col-12">
+        <div className="col-6 mx-auto">
+          <div className="text-center d-flex">
+            <hr className="text-white" />
+            <h4 className="mx-auto text-center text-warning">
+              <strong> FAQs</strong>
+              <br />
+            </h4>
+          </div>
+        </div>
+        <h5 className="text-white">What are Pools?</h5>
+        <hr className="text-white p-0 w-50 mx-auto" />
+        <div className="container">
+          <h5 className="text-white text-center  p-2">
+            Pools are series of token/coins that can be traded with any asset of
+            choice in demand for Rewards.. .
+          </h5>
+        </div>
+        {/* <div className="text-center">
+          <a className="btn button btn-warning" href="https://Blockchain.com">
+            <strong>LEARN MORE</strong>
+          </a>
+        </div> */}
       </div>
 
       <br />

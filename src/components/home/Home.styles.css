@@ -2,3 +2,13 @@
   margin-right: 5px;
 }
 
+#finance {
+  color: wheat;
+  background-color: rgba(140, 88, 150, 0.164);
+  padding: 20px;
+}
+
+#xxx {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
