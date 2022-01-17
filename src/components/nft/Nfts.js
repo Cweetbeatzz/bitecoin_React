@@ -66,11 +66,11 @@ function Nfts() {
               <hr className="text-white p-0 w-50" />
             </div>
 
-            <div className="justify-content-center ">
+            <div className=" ">
               <div className="d-flex justify-content-center ">
                 <ul className="list-unstyled  text-white">
                   <li href="link">
-                    <a href="link" className="a text-white">
+                    <a href="link" className="a text-white ">
                       BACKGROUND
                     </a>
                   </li>
@@ -141,201 +141,344 @@ function Nfts() {
             </div>
           </div>
         </div>
+
         <div className="col-9 mx-auto m-4">
-          <div className="container-fluid p-5 bg-light row bg-opacity-10">
-            <div className="nftcards justify-content-center justify-content-evenly ">
-              <div className="card col-3 ">
-                {/* <div className=" "> */}
-                <img
-                  className="card-img-top nftimages"
-                  src="images/2.png"
-                  alt=" "
-                />
-                <span className="card-body d-flex justify-content-evenly ">
-                  <h6 className="text-dark">
-                    <strong>CWEETFACE #1</strong>
-                  </h6>
-                  <h6 className="text-dark">
-                    <span className="mx-1">
-                      <img
-                        className="ethlogo"
-                        src="images/Ethereum_logo_2014.svg.png"
-                        alt=""
-                      />
-                      <strong> 0.77</strong>
-                    </span>
-                  </h6>
-                </span>
-                <a className="btn btn-dark btn-sm m-0" href="link" id="addtocart">
-                  BUY
-                </a>
-                {/* </div> */}
+          <div
+            className="container-fluid p-5 bg-light row bg-opacity-10"
+            id="bloocc"
+          >
+            <div className="">
+              <div className="gap-2" id="neftflex">
+                <div class="card" id="card">
+                  <img
+                    class="card-img-top img-fluid border-0"
+                    id="cardimg"
+                    src="images/2.png"
+                    alt=""
+                  />
+                  <div class="card-body">
+                    <h6 class="card-title text-center">Cweetfaces</h6>
+                    <h5 class="card-title text-center" id="nftheadname">
+                      <strong>Blu Mafia #5456</strong>
+                    </h5>
+                    <hr />
+                    <div class=" d-flex justify-content-evenly p-0 m-0">
+                      <h6 class="card-text text-start" id="askingprice1">
+                        Asking Price
+                      </h6>
+                      <span className="d-flex">
+                        {/* <h6 class="" id='dollarvalue'>($59.99)</h6>  */}
+                        <img
+                          class="card-img-top "
+                          id="ethlogo1"
+                          src="images/Ethereum_logo_2014.svg.png"
+                          alt=""
+                        />
+                        <h5 id="ethvalue1" className="px-1">
+                          <strong>0.086</strong>
+                        </h5>
+                      </span>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="card" id="card">
+                  <img
+                    class="card-img-top img-fluid"
+                    id="cardimg"
+                    src="images/4.png"
+                    alt=""
+                  />
+                  <div class="card-body">
+                    <h6 class="card-title text-center">Cweetfaces</h6>
+                    <h5 class="card-title text-center" id="nftheadname">
+                      <strong>Black Mafia #5456</strong>
+                    </h5>
+                    <hr />
+                    <div class=" d-flex justify-content-evenly p-0 m-0">
+                      <h6 class="card-text text-start" id="askingprice1">
+                        Asking Price
+                      </h6>
+                      <span className="d-flex ">
+                        {/* <h6 class="" id='dollarvalue'>($59.99)</h6>  */}
+                        <img
+                          class=""
+                          id="ethlogo1"
+                          src="images/Ethereum_logo_2014.svg.png"
+                          alt=""
+                        />
+                        <h5 id="ethvalue1">
+                          <strong>0.086</strong>
+                        </h5>
+                      </span>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="card" id="card">
+                  <img
+                    class="card-img-top img-fluid"
+                    id="cardimg"
+                    src="images/3.png"
+                    alt=""
+                  />
+                  <div class="card-body">
+                    <h6 class="card-title text-center">Cweetfaces</h6>
+                    <h5 class="card-title text-center" id="nftheadname">
+                      <strong>Red Mafia #5466</strong>
+                    </h5>
+                    <hr />
+                    <div class=" d-flex justify-content-evenly p-0 m-0">
+                      <h6 class="card-text text-start" id="askingprice1">
+                        Asking Price
+                      </h6>
+                      <span className="d-flex ">
+                        {/* <h6 class="" id='dollarvalue'>($59.99)</h6>  */}
+                        <img
+                          class=""
+                          id="ethlogo1"
+                          src="images/Ethereum_logo_2014.svg.png"
+                          alt=""
+                        />
+                        <h5 id="ethvalue1">
+                          <strong>0.086</strong>
+                        </h5>
+                      </span>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="card" id="card">
+                  <img
+                    class="card-img-top img-fluid"
+                    id="cardimg"
+                    src="images/4.png"
+                    alt=""
+                  />
+                  <div class="card-body">
+                    <h6 class="card-title text-center">Cweetfaces</h6>
+                    <h5 class="card-title text-center" id="nftheadname">
+                      <strong>Black Mafia #5456</strong>
+                    </h5>
+                    <hr />
+                    <div class=" d-flex justify-content-evenly p-0 m-0">
+                      <h6 class="card-text text-start" id="askingprice1">
+                        Asking Price
+                      </h6>
+                      <span className="d-flex ">
+                        {/* <h6 class="" id='dollarvalue'>($59.99)</h6>  */}
+                        <img
+                          class=""
+                          id="ethlogo1"
+                          src="images/Ethereum_logo_2014.svg.png"
+                          alt=""
+                        />
+                        <h5 id="ethvalue1">
+                          <strong>0.086</strong>
+                        </h5>
+                      </span>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="card" id="card">
+                  <img
+                    class="card-img-top img-fluid"
+                    id="cardimg"
+                    src="images/5.png"
+                    alt=""
+                  />
+                  <div class="card-body">
+                    <h6 class="card-title text-center">Cweetfaces</h6>
+                    <h5 class="card-title text-center" id="nftheadname">
+                      <strong>White Mafia #5456</strong>
+                    </h5>
+                    <hr />
+                    <div class=" d-flex justify-content-evenly p-0 m-0">
+                      <h6 class="card-text text-start" id="askingprice1">
+                        Asking Price
+                      </h6>
+                      <span className="d-flex ">
+                        {/* <h6 class="" id='dollarvalue'>($59.99)</h6>  */}
+                        <img
+                          class=""
+                          id="ethlogo1"
+                          src="images/Ethereum_logo_2014.svg.png"
+                          alt=""
+                        />
+                        <h5 id="ethvalue1">
+                          <strong>0.086</strong>
+                        </h5>
+                      </span>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="card" id="card">
+                  <img
+                    class="card-img-top img-fluid"
+                    id="cardimg"
+                    src="images/3.png"
+                    alt=""
+                  />
+                  <div class="card-body">
+                    <h6 class="card-title text-center">Cweetfaces</h6>
+                    <h5 class="card-title text-center" id="nftheadname">
+                      <strong>Red Mafia #5456</strong>
+                    </h5>
+                    <hr />
+                    <div class=" d-flex justify-content-evenly p-0 m-0">
+                      <h6 class="card-text text-start" id="askingprice1">
+                        Asking Price
+                      </h6>
+                      <span className="d-flex ">
+                        {/* <h6 class="" id='dollarvalue'>($59.99)</h6>  */}
+                        <img
+                          class=""
+                          id="ethlogo1"
+                          src="images/Ethereum_logo_2014.svg.png"
+                          alt=""
+                        />
+                        <h5 id="ethvalue1">
+                          <strong>0.086</strong>
+                        </h5>
+                      </span>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="card" id="card">
+                  <img
+                    class="card-img-top img-fluid"
+                    id="cardimg"
+                    src="images/3.png"
+                    alt=""
+                  />
+                  <div class="card-body">
+                    <h6 class="card-title text-center">Cweetfaces</h6>
+                    <h5 class="card-title text-center" id="nftheadname">
+                      <strong>Red Mafia #5456</strong>
+                    </h5>
+                    <hr />
+                    <div class=" d-flex justify-content-evenly p-0 m-0">
+                      <h6 class="card-text text-start" id="askingprice1">
+                        Asking Price
+                      </h6>
+                      <span className="d-flex ">
+                        {/* <h6 class="" id='dollarvalue'>($59.99)</h6>  */}
+                        <img
+                          class=""
+                          id="ethlogo1"
+                          src="images/Ethereum_logo_2014.svg.png"
+                          alt=""
+                        />
+                        <h5 id="ethvalue1">
+                          <strong>0.086</strong>
+                        </h5>
+                      </span>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="card" id="card">
+                  <img
+                    class="card-img-top img-fluid"
+                    id="cardimg"
+                    src="images/5.png"
+                    alt=""
+                  />
+                  <div class="card-body">
+                    <h6 class="card-title text-center">Cweetfaces</h6>
+                    <h5 class="card-title text-center" id="nftheadname">
+                      <strong>White Mafia #5456</strong>
+                    </h5>
+                    <hr />
+                    <div class=" d-flex justify-content-evenly p-0 m-0">
+                      <h6 class="card-text text-start" id="askingprice1">
+                        Asking Price
+                      </h6>
+                      <span className="d-flex ">
+                        {/* <h6 class="" id='dollarvalue'>($59.99)</h6>  */}
+                        <img
+                          class=""
+                          id="ethlogo1"
+                          src="images/Ethereum_logo_2014.svg.png"
+                          alt=""
+                        />
+                        <h5 id="ethvalue1">
+                          <strong>0.086</strong>
+                        </h5>
+                      </span>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="card" id="card">
+                  <img
+                    class="card-img-top img-fluid"
+                    id="cardimg"
+                    src="images/4.png"
+                    alt=""
+                  />
+                  <div class="card-body">
+                    <h6 class="card-title text-center">Cweetfaces</h6>
+                    <h5 class="card-title text-center" id="nftheadname">
+                      <strong>Black Mafia #5456</strong>
+                    </h5>
+                    <hr />
+                    <div class=" d-flex justify-content-evenly p-0 m-0">
+                      <h6 class="card-text text-start" id="askingprice1">
+                        Asking Price
+                      </h6>
+                      <span className="d-flex ">
+                        {/* <h6 class="" id='dollarvalue'>($59.99)</h6>  */}
+                        <img
+                          class=""
+                          id="ethlogo1"
+                          src="images/Ethereum_logo_2014.svg.png"
+                          alt=""
+                        />
+                        <h5 id="ethvalue1">
+                          <strong>0.086</strong>
+                        </h5>
+                      </span>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="card" id="card">
+                  <img
+                    class="card-img-top img-fluid border-0"
+                    id="cardimg"
+                    src="images/2.png"
+                    alt=""
+                  />
+                  <div class="card-body">
+                    <h6 class="card-title text-center">Cweetfaces</h6>
+                    <h5 class="card-title text-center" id="nftheadname">
+                      <strong>Blu Mafia #5456</strong>
+                    </h5>
+                    <hr />
+                    <div class=" d-flex justify-content-evenly p-0 m-0">
+                      <h6 class="card-text text-start" id="askingprice1">
+                        Asking Price
+                      </h6>
+                      <span className="d-flex">
+                        {/* <h6 class="" id='dollarvalue'>($59.99)</h6>  */}
+                        <img
+                          class="card-img-top "
+                          id="ethlogo1"
+                          src="images/Ethereum_logo_2014.svg.png"
+                          alt=""
+                        />
+                        <h5 id="ethvalue1" className="px-1">
+                          <strong>0.086</strong>
+                        </h5>
+                      </span>
+                    </div>
+                  </div>
+                </div>
               </div>
-
-              <div className="card col-3 ">
-                <img
-                  className="card-img-top nftimages"
-                  src="images/3.png"
-                  alt=" "
-                />
-                <span className="card-body d-flex justify-content-evenly ">
-                  <h6 className="text-dark">
-                    <strong>CWEETFACE #2</strong>
-                  </h6>
-                  <h6 className="text-dark">
-                    <span className="mx-1">
-                      <img
-                        className="ethlogo"
-                        src="images/Ethereum_logo_2014.svg.png"
-                        alt=""
-                      />
-                      <strong> 0.77</strong>
-                    </span>
-                  </h6>
-                </span>
-                <a className="btn btn-dark btn-sm m-0" href="link" id="addtocart">
-                  BUY
-                </a>
-              </div>
-
-              <div className="card col-3 ">
-                <img
-                  className="card-img-top nftimages"
-                  src="images/4.png"
-                  alt=" "
-                />
-                <span className="card-body d-flex justify-content-evenly ">
-                  <h6 className="text-dark">
-                    <strong>CWEETFACE #3</strong>
-                  </h6>
-                  <h6 className="text-dark">
-                    <span className="mx-1">
-                      <img
-                        className="ethlogo"
-                        src="images/Ethereum_logo_2014.svg.png"
-                        alt=""
-                      />
-                      <strong> 0.77</strong>
-                    </span>
-                  </h6>
-                </span>
-                <a className="btn btn-dark btn-sm m-0" href="link" id="addtocart">
-                  BUY
-                </a>
-              </div>
-
-              <div className="card col-3 ">
-                <img
-                  className="card-img-top nftimages"
-                  src="images/5.png"
-                  alt=" "
-                />
-                <span className="card-body d-flex justify-content-evenly ">
-                  <h6 className="text-dark">
-                    <strong>CWEETFACE #4</strong>
-                  </h6>
-                  <h6 className="text-dark">
-                    <span className="mx-1">
-                      <img
-                        className="ethlogo"
-                        src="images/Ethereum_logo_2014.svg.png"
-                        alt=""
-                      />
-                      <strong> 0.77</strong>
-                    </span>
-                  </h6>
-                </span>
-                <a className="btn btn-dark btn-sm m-0" href="link" id="addtocart">
-                  BUY
-                </a>
-              </div>
-
-              {/* <div className="card col-2">
-                <img
-                  className="card-img-top nftimages"
-                  src="images/ethereum-quatrox-production-adobe.jpeg"
-                  alt=" "
-                />
-                <span className="card-body d-flex justify-content-evenly ">
-                  <h6 className="text-info">
-                    <strong>ETH 0.77</strong>
-                  </h6>
-                </span>
-                <a className="btn btn-dark btn-sm m-0" href="link" id="addtocart">
-                  ADD TO CART
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg "
-                    width="18"
-                    height="18"
-                    fill="currentColor "
-                    className="bi bi-cart3 "
-                    viewBox="0 0 16 16 "
-                  >
-                    <path
-                      d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .49.598l-1 5a.5.5 0 0 1-.465.401l-9.397.472L4.415 11H13a.5.5 0 0 1 0 1H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM3.102 4l.84
-                           4.479 9.144-.459L13.89 4H3.102zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2z "
-                    />
-                  </svg>
-                </a>
-              </div> */}
-
-              {/* <div className="card col-2">
-                <img
-                  className="card-img-top nftimages"
-                  src="images/ethereum-quatrox-production-adobe.jpeg"
-                  alt=" "
-                />
-                <span className="card-body d-flex justify-content-evenly ">
-                  <h6 className="text-info">
-                    <strong>ETH 0.77</strong>
-                  </h6>
-                </span>
-                <a className="btn btn-dark btn-sm m-0" href="link" id="addtocart">
-                  ADD TO CART
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg "
-                    width="18"
-                    height="18"
-                    fill="currentColor "
-                    className="bi bi-cart3 "
-                    viewBox="0 0 16 16 "
-                  >
-                    <path
-                      d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .49.598l-1 5a.5.5 0 0 1-.465.401l-9.397.472L4.415 11H13a.5.5 0 0 1 0 1H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM3.102 4l.84
-                           4.479 9.144-.459L13.89 4H3.102zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2z "
-                    />
-                  </svg>
-                </a>
-              </div> */}
-
-              {/* <div className="card col-2">
-                <img
-                  className="card-img-top nftimages"
-                  src="images/ethereum-quatrox-production-adobe.jpeg"
-                  alt=" "
-                />
-                <span className="card-body d-flex justify-content-evenly ">
-                  <h6 className="text-info">
-                    <strong>ETH 0.77</strong>
-                  </h6>
-                </span>
-                <a className="btn btn-dark btn-sm m-0" href="link" id="addtocart">
-                  ADD TO CART
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg "
-                    width="18"
-                    height="18"
-                    fill="currentColor "
-                    className="bi bi-cart3 "
-                    viewBox="0 0 16 16 "
-                  >
-                    <path
-                      d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .49.598l-1 5a.5.5 0 0 1-.465.401l-9.397.472L4.415 11H13a.5.5 0 0 1 0 1H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM3.102 4l.84
-                           4.479 9.144-.459L13.89 4H3.102zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2z "
-                    />
-                  </svg>
-                </a>
-              </div> */}
             </div>
           </div>
         </div>

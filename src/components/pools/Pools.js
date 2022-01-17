@@ -78,15 +78,15 @@ function Pools() {
       <div>
         <div className=" d-flex mx-auto m-1 justify-content-center">
           <div className="container-fluid m-2">
-            <p className="text-white ">
+            <p className="text-white bg-gradient w-50 mx-auto p-3">
               <strong>AVAILABLE ASSETS TO DEPOSIT</strong>
             </p>
 
             <div
-              className="m-5 card bg-light bg-opacity-10 shadow"
+              className="container mx-auto m-5 card bg-light bg-opacity-10 shadow"
               id="backgoundcolor"
             >
-              <div className="card-body ">
+              <div className="card-body " id="tableblock">
                 <table className="table ">
                   <thead>
                     <tr className="text-warning">

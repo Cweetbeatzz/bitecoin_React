@@ -23,11 +23,13 @@ function Swap() {
               </div>
 
               <div className="text-center ">
-                <p className=" btn btn-dark text-warning ">
-                  <strong>TRADE TOKENS INSTANTLY</strong>
+                <p className="bg-dark p-3 text-warning ">
+                  <strong>SWAP TOKENS INSTANTLY</strong>
                 </p>
                 <br />
-                <label className="btn-outline-warning">PAY</label>
+                <label className="btn-outline-warning pb-2">
+                  <strong>PAY</strong>
+                </label>
                 <br />
                 <div className="d-flex justify-content-center">
                   <div className="form-group col-3 mx-2 ">
@@ -66,7 +68,9 @@ function Swap() {
               <br />
 
               <div className="text-center">
-                <label className="btn-outline-warning">RECIEVE</label>
+                <label className="btn-outline-warning pb-2">
+                  <strong>RECIEVE</strong>
+                </label>
                 <br />
 
                 <div className="d-flex justify-content-center">
@@ -85,11 +89,12 @@ function Swap() {
               <br />
 
               <div className="text-center mb-3">
-                <a href="link" className="btn btn-dark w-25">
+                <a href="link" className="btn btn-dark w-25 m-3">
                   <strong> SWAP</strong>
                 </a>
               </div>
               <hr className="text-white p-0" />
+              <br />
             </div>
           </div>
         </div>
@@ -102,6 +107,12 @@ function Swap() {
           Need help?
         </a>
       </div>
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
       <br />
       <br />
       <br />

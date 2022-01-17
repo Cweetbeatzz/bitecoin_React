@@ -6,3 +6,9 @@
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   padding-left: 20px;
 }
+
+@media (max-width: 768px) {
+  #backgoundcolor {
+    width: 100%;
+  }
+}
