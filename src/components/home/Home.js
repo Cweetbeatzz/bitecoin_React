@@ -9,24 +9,6 @@ function Home() {
     <Container>
       <CarouselSlider />
       <br />
-      <div className="container">
-        <div className="d-flex gap-2" id="finance">
-          <div className="col-6 bg-dark">
-            <div className=" bg-gradient">
-              <div className=" bg-gradient">
-                {" "}
-                <h2 className="p-4">
-                  <strong>WELCOME</strong>
-                </h2>
-              </div>
-            </div>
-          </div>
-          <div className="col-6 text-center" id="xxx">
-            {" "}
-            <h5 className="py-auto">Engage in the Future of Finance</h5>
-          </div>
-        </div>
-      </div>
 
       <Networks />
 

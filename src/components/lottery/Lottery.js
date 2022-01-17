@@ -1,4 +1,5 @@
 import React from "react";
+import "./Lottery.styles.css";
 
 function Lottery() {
   return (
@@ -12,8 +13,8 @@ function Lottery() {
           <div className=" justify-content-lg-start">
             <div className="mx-auto">
               <hr className="text-white w-50 mx-auto" />
-              <h6 className="txt display-3">
-                <strong>$100,000</strong>
+              <h6 className="txt display-3 " id="priceamt">
+                <strong id="moneyval">$100,000</strong>
               </h6>
               <hr className="text-white w-50 mx-auto" />
             </div>
@@ -35,20 +36,30 @@ function Lottery() {
             </div>
           </div>
         </div>
-
-        <div>
-          <h4 className="txt ">Get your tickets now!!!</h4>
+        <div className="bg-dark p-4" id="tickets">
+          <h3 className=" ">Get your tickets now!!!</h3>
         </div>
         <br />
         <br />
-        <div>
-          <span className="d-flex justify-content-center">
-            <h4 className="txt ">Hurry!!!</h4>
-            <h4 className="txt ">18 hrs 55 min</h4>
-            <h4 className="txt ">untill draw</h4>
+        <div className="container bg-gradient p-4">
+          <span className="d-flex justify-content-center gap-2">
+            <h4 className="txt bg-info p-2">
+              <strong>Hurry!!!</strong>
+            </h4>
+            <h4 className="txt bg-dark p-2">
+              <strong>18 hrs</strong>{" "}
+            </h4>
+            <h4 className="txt bg-dark p-2">
+              <strong>55 min</strong>
+            </h4>
+            <h4 className="txt bg-dark p-2">
+              <strong>23 sec</strong>
+            </h4>
+            <h4 className="txt p-2 bg-light text-black">
+              <strong>untill draw</strong>
+            </h4>
           </span>
         </div>
-
         <br />
         <br />
         <div className="container">
@@ -75,14 +86,7 @@ function Lottery() {
                   </label>
                   <input className="form-control mb-1" placeholder="0.0" />
                 </div>
-
-                <div className=" p-2 m-2 text-center text-white">
-                  <p>
-                    Ensure Safety measures in stakes to secure the protocol in
-                    exchange for protocol incentives and avoid Liquidation on
-                    assets.
-                  </p>
-                </div>
+                <br />
                 <div className="text-center mb-3">
                   <a href="link" className="btn btn-dark w-25">
                     <strong>STAKE</strong>
@@ -99,6 +103,12 @@ function Lottery() {
             </div>
           </div>
         </div>
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
       </div>
     </div>
   );
