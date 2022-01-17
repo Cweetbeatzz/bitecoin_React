@@ -6,3 +6,21 @@
 .colorpercentage {
   color: rgb(47, 255, 82);
 }
+
+#flexbloc {
+  display: flex;
+}
+
+@media (max-width: 768px) {
+  #flexbloc {
+    display: block;
+  }
+
+  #profile {
+    width: 100%;
+  }
+
+  #statistics {
+    width: 100%;
+  }
+}

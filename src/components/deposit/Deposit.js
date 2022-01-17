@@ -142,11 +142,6 @@ function Deposit() {
                   </tr>
                 </tbody>
               </table>
-              <div className="text-center  mb-3">
-                <a href="link" className="btn btn-warning">
-                  CONNECT WALLET
-                </a>
-              </div>
             </div>
           </div>
           <br />

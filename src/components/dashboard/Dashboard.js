@@ -7,8 +7,8 @@ function Dashboard() {
       <br />
       <br />
 
-      <div className="container d-flex justify-content-center">
-        <div className="col-5 ">
+      <div className="container justify-content-center" id="flexbloc">
+        <div className="col-5" id="profile">
           <div className="w-100 d-flex mx-auto m-1 ">
             <div className="m-2 w-100">
               <div className=" bg-gradient bg-opacity-25 w-100">
@@ -48,18 +48,14 @@ function Dashboard() {
                   </div>
                   <hr className="text-white" />
 
-                  <div className="text-center  mb-3">
-                    <a href="link" className="btn btn-warning">
-                      <strong>CONNECT WALLET</strong>
-                    </a>
-                  </div>
+         
                 </div>
               </div>
             </div>
           </div>
         </div>
 
-        <div className="col-7 mx-auto ">
+        <div className="col-7 mx-auto " id="statistics">
           <div className="w-100 d-flex mx-auto m-1 ">
             <div className="m-2 w-100">
               <div className=" bg-gradient bg-opacity-25 w-100">

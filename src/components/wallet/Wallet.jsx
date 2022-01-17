@@ -33,7 +33,7 @@ function Wallet() {
           </li>
           <li className="nav-item">
             <a className="nav-link  text-dark" href="link" data-id="token">
-              TOKEN
+              ASSETS
             </a>
           </li>
           <li className="nav-item">
@@ -72,7 +72,7 @@ function Wallet() {
             </div>
 
            <div className="content " id="token">
-              <h4 className="text-white"><strong>TOKEN</strong></h4>
+              <h4 className="text-white"><strong>ASSETS</strong></h4>
               <p className="text-white">
                 Chambray authentic truffaut, kickstarter brunch taxidermy vape
                 heirloom four dollar toast raclette shoreditch church-key.
