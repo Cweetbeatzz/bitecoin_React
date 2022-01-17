@@ -17,7 +17,7 @@ function Wallet() {
       </div>
       <hr className="text-white" />
 
-<section className="walletsection">
+<div className="walletsection">
       <div className="card-body mx-auto col-md-7 col-sm-7 justify-content-between">
         <ul className="nav nav-tabs ">
           <li className="nav-item">
@@ -102,7 +102,7 @@ function Wallet() {
             </div>
             
       </div>
-      </section>
+      </div>
       <br />
       <br />
       <br />
