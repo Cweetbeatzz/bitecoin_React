@@ -34,7 +34,8 @@ function Header() {
         <div>
           {isConnected ? (
             <button className="btn btn-warning" onClick={deactivate}>
-              DISCONNECT WALLET
+              <strong>DISCONNECT WALLET</strong>{" "}
+              <img src="images/metamask.svg" alt="" className="metaimg" />
             </button>
           ) : (
             <button className="btn btn-warning" onClick={activateBrowserWallet}>

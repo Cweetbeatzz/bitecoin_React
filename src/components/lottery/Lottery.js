@@ -43,7 +43,7 @@ function Lottery() {
         <br />
         <div className="container bg-gradient p-4">
           <span className="d-flex justify-content-center gap-2">
-            <h4 className="txt bg-info p-2">
+            <h4 className="txt bg-warning p-2 text-black">
               <strong>Hurry!!!</strong>
             </h4>
             <h4 className="txt bg-dark p-2">
@@ -55,7 +55,7 @@ function Lottery() {
             <h4 className="txt bg-dark p-2">
               <strong>23 sec</strong>
             </h4>
-            <h4 className="txt p-2 bg-light text-black">
+            <h4 className="txt p-2 bg-dark text-warning">
               <strong>untill draw</strong>
             </h4>
           </span>
