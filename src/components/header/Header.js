@@ -16,37 +16,6 @@ function Header() {
 
   return (
     <Container>
-      {/* <Link to="home">
-        <strong>BITECOIN</strong>
-      </Link>
-      <Menu>
-        <Link to="dashboard">dashboard</Link>
-        <Link to="deposit">deposit</Link>
-        <Link to="pools">pools</Link>
-        <Link to="stake">stake</Link>
-        <Link to="lottery">lottery</Link>
-        <Link to="swap">swap</Link>
-        <Link to="nfts">nfts</Link>
-        <Link to="borrow">borrow</Link>
-        <Link to="wallet">wallet</Link>
-      </Menu>
-      <RightMenu>
-        <div>
-          {isConnected ? (
-            <button className="btn btn-warning" onClick={deactivate}>
-              <strong>DISCONNECT WALLET</strong>{" "}
-              <img src="images/metamask.svg" alt="" className="metaimg" />
-            </button>
-          ) : (
-            <button className="btn btn-warning" onClick={activateBrowserWallet}>
-              <strong>CONNECT WALLET</strong>{" "}
-              <img src="images/metamask.svg" alt="" className="metaimg" />
-            </button>
-          )}
-        </div>
-        <CustomMenu />
-      </RightMenu> */}
-
       <nav
         className="container navbar navbar-expand-lg navbar-dark p-4"
         id="cont"
@@ -106,10 +75,21 @@ function Header() {
         </div>
 
         <div>
-          <button className="btn btn-warning" id="metabutton">
-            <strong>CONNECT WALLET</strong>{" "}
-            <img src="images/metamask.svg" alt="" className="metaimg" />
-          </button>
+          {isConnected ? (
+            <button
+              className="btn btn-danger"
+              id="metabutton"
+              onClick={deactivate}
+            >
+              <strong>DISCONNECT WALLET</strong>{" "}
+              <img src="images/metamask.svg" alt="" className="metaimg" />
+            </button>
+          ) : (
+            <button className="btn btn-warning" onClick={activateBrowserWallet}>
+              <strong>CONNECT WALLET</strong>{" "}
+              <img src="images/metamask.svg" alt="" className="metaimg" />
+            </button>
+          )}
         </div>
       </nav>
     </Container>
