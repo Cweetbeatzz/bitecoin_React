@@ -1,6 +1,7 @@
 import React from "react";
 import "./Wallet.js";
-import './Wallet.styles.css'
+import './Wallet.styles.css';
+// import {TabContext,TabList,TabPanel, Tabs} from '@mui/material';
 
 
 function Wallet() {

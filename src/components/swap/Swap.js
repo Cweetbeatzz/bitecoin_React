@@ -14,15 +14,15 @@ function Swap() {
         <hr className="text-white p-0" />
         <br />
       </div>
-      <p className="bg-dark p-3 text-warning w-50 mx-auto">
+      <p className=" p-3 text-warning  mx-auto">
         <strong>SWAP TOKENS INSTANTLY</strong>
       </p>
       <br />
 
       <div className="col-10 d-flex mx-auto m-1 justify-content-center">
-        <div className="col-9 m-2">
-          <div className="cont shadow ">
-            <div className="card-body mx-auto w-100 justify-content-center">
+        <div className="col-8 w-100 m-2">
+          <div className="bg-gradient cont shadow ">
+            <div className="card-body mx-auto  justify-content-center">
               <div>
                 <hr className="text-white" />
               </div>
@@ -48,10 +48,7 @@ function Swap() {
               </div>
 
               <br />
-              <div
-                className="text-warning arrowexchange mx-auto"
-                id="arrowexchange"
-              >
+              <div className="text-warning  mx-auto" id="arrowexchange">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="16"

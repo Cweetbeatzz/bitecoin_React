@@ -50,7 +50,16 @@ function Home() {
       </TextItem>
       <br />
       <br />
-      <hr className="text-white" />
+      <br />
+      <div className="container">
+        <hr className="  text-white" />
+      </div>
+      <br />
+
+      <br />
+
+      <br />
+
       <div className="text-center">
         <h4 className=" text-warning">
           <strong>MARKETS</strong>
@@ -127,6 +136,9 @@ function Home() {
         </div>
       </div>
 
+      <br />
+      <br />
+      <br />
       <br />
     </Container>
   );

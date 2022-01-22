@@ -16,10 +16,7 @@ function Stake() {
       </div>
       <div className="container">
         <div className="col-6  bg-gradient" id="farmnotify">
-          <p
-            className="display-1 justify-content-lg-start  text-warning farms"
-            id=""
-          >
+          <p className="display-1 justify-content-lg-start  text-warning farms">
             <strong>Farms </strong>
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -53,14 +50,14 @@ function Stake() {
               </div>
 
               <div className="form-group"></div>
-              <div className="text-center">
-                <label>
+              <div className="text-center text-white">
+                <label className="p-2">
                   <strong>Price</strong>
                 </label>
                 <input className="form-control mb-1" placeholder="0.0" />
               </div>
-              <div className="text-center">
-                <label>
+              <div className="text-center text-white">
+                <label className="p-2">
                   <strong>Amount</strong>
                 </label>
                 <input className="form-control mb-1" placeholder="0.0" />

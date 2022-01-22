@@ -5,7 +5,7 @@ import styled from "styled-components";
 export const Container = styled.div`
 min-height:80px;
 // position:fixed;
-background rgb(116, 116, 160);
+/* background rgb(116, 116, 160); */
 display:flex;
 align-items:center;
 justify-content:space-between;

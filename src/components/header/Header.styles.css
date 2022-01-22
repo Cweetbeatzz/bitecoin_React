@@ -3,3 +3,26 @@
   height: 20px;
   justify-content: center;
 }
+
+@media (max-width: 973px) {
+  #navbarNav {
+    display: block;
+    padding: 30px 10px;
+  }
+
+  .menu {
+    display: block;
+    align-items: center;
+    justify-content: center;
+    padding: 0 10px;
+    color: white;
+  }
+
+  #nav {
+    display: block;
+  }
+
+  #metabutton {
+    justify-content: center;
+  }
+}

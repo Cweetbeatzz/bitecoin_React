@@ -16,7 +16,7 @@ function Header() {
 
   return (
     <Container>
-      <Link to="home">
+      {/* <Link to="home">
         <strong>BITECOIN</strong>
       </Link>
       <Menu>
@@ -45,15 +45,73 @@ function Header() {
           )}
         </div>
         <CustomMenu />
-      </RightMenu>
-      {/* <BurgerNav>
-                    <li><a href="home">country</a></li>
-                    <li><a href="home">depatures</a></li>
-                    <li><a href="home">arrivals</a></li>
-                    <li><a href="home">price feeds</a></li>
-                    <li><a href="home">schedules</a></li>
-                    <li><a href="home">location</a></li>
-               </BurgerNav> */}
+      </RightMenu> */}
+
+      <nav
+        className="container navbar navbar-expand-lg navbar-dark p-4"
+        id="cont"
+      >
+        <div>
+          <Link className="navbar-brand" to="home">
+            <strong className="  text-white">BITECOIN</strong>
+          </Link>
+          <button
+            className="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span className="navbar-toggler-icon"></span>
+          </button>
+        </div>
+
+        <div
+          className="collapse navbar-collapse justify-content-center"
+          id="navbarNav"
+        >
+          <div className="menu">
+            <ul className="navbar-nav gap-4">
+              <li className="nav-item active">
+                <Link to="dashboard">dashboard</Link>
+              </li>
+              <li class="nav-item">
+                <Link to="deposit">deposit</Link>
+              </li>
+              <li className="nav-item">
+                <Link to="pools">pools</Link>
+              </li>
+              <li className="nav-item">
+                <Link to="stake">stake</Link>
+              </li>
+              <li className="nav-item">
+                <Link to="lottery">lottery</Link>
+              </li>
+              <li className="nav-item">
+                <Link to="swap">swap</Link>
+              </li>
+              <li className="nav-item">
+                <Link to="nfts">nfts</Link>
+              </li>
+              <li className="nav-item">
+                <Link to="borrow">borrow</Link>
+              </li>
+              <li className="nav-item">
+                <Link to="wallet">wallet</Link>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div>
+          <button className="btn btn-warning" id="metabutton">
+            <strong>CONNECT WALLET</strong>{" "}
+            <img src="images/metamask.svg" alt="" className="metaimg" />
+          </button>
+        </div>
+      </nav>
     </Container>
   );
 }
