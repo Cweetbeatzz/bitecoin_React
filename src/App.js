@@ -21,9 +21,14 @@ import Nfts from "./components/nft/Nfts.js";
 import Dashboard from "./components/dashboard/Dashboard.js";
 import Pools from "./components/pools/Pools.js";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Web3 from "web3";
+// import Web3 from "web3";
 
 class App extends Component {
+  //#############################################################################
+  constructor(props) {
+    super(props);
+    this.state = { account: "" };
+  }
   //#############################################################################
 
   componentWillMount = async () => {
@@ -32,17 +37,17 @@ class App extends Component {
   };
   //#############################################################################
   // loading web3
-  loadWeb3 = async () => {
-    if (window.ethereum) {
-      window.web3 = new Web3(window.ethereum);
-    } else if (window.web3) {
-      window.web3 = new Web3(window.web3.currentProvider);
-    } else {
-      window.alert(
-        "Non-Ethereum browser detected. You should consider trying MetaMask!"
-      );
-    }
-  };
+  // loadWeb3 = async () => {
+  //   if (window.ethereum) {
+  //     window.web3 = new Web3(window.ethereum);
+  //   } else if (window.web3) {
+  //     window.web3 = new Web3(window.web3.currentProvider);
+  //   } else {
+  //     window.alert(
+  //       "Non-Ethereum browser detected. You should consider trying MetaMask!"
+  //     );
+  //   }
+  // };
   //#############################################################################
   render() {
     return (
