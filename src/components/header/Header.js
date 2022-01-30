@@ -12,6 +12,7 @@ import "./Header.styles.css";
 
 function Header() {
   const { account, activateBrowserWallet, deactivate } = useEthers();
+  //if account is undefined  account is not connected else account is connected
   const isConnected = account !== undefined;
 
   return (
