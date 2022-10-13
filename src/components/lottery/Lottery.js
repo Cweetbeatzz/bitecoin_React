@@ -8,7 +8,7 @@ function Lottery() {
       <div>
         <div className="bg-gradient p-4 m-3 ">
           <h4 className=" justify-content-lg-start pl-3 text-warning ">
-            <strong>THE BLOCKS LOTTERY</strong>
+            <strong>BITE BLOCKS LOTTERY</strong>
           </h4>
           <div className=" justify-content-lg-start">
             <div className="mx-auto">
