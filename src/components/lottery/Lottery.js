@@ -1,6 +1,6 @@
 import React from "react";
 import { useContext } from "react";
-import { LotteryContext } from "../../Context/Lottery";
+import { LotteryContext } from "../../Context/LotteryContext";
 import "./Lottery.styles.css";
 
 function Lottery() {
