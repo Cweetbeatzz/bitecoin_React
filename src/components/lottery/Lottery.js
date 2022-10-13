@@ -5,6 +5,14 @@ import "./Lottery.styles.css";
 
 function Lottery() {
   const Lotteryyy = useContext(LotteryContext);
+  const {
+    loading,
+    MetaMaskConnected,
+    StartLottery,
+    EndLottery,
+    EnterLottery,
+    AssignWinner,
+  } = Lotteryyy;
   return (
     <div>
       <br />
@@ -27,11 +35,20 @@ function Lottery() {
           </div>
 
           <div className="d-flex justify-content-center ">
-            <div className="m-1 ">
-              <button className="btn btn-warning shadow">
-                <strong>CONNECT WALLET</strong>
-              </button>
-            </div>
+            {MetaMaskConnected ? (
+              <div className="m-1 ">
+                <button className="btn btn-warning shadow">
+                  <strong>LOGOUT</strong>
+                </button>
+              </div>
+            ) : (
+              <div className="m-1 ">
+                <button className="btn btn-warning shadow">
+                  <strong>CONNECT WALLET</strong>
+                </button>
+              </div>
+            )}
+
             <div className="m-1">
               <button className="btn btn-dark shadow">
                 <strong>BUY TICKETS</strong>
