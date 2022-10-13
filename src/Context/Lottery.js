@@ -2,14 +2,15 @@ import React, { createContext, useContext, useState } from "react";
 
 //#########################################################################
 
-const LotteryContext = createContext();
+export const LotteryContext = createContext();
 
 //#########################################################################
 
-const LotteryProvider = ({ children }) => {
+export const LotteryProvider = ({ children }) => {
   //#########################################################################
 
   const [loading, setLoading] = useState(false);
+  const [MetaMaskConnected, setMetaMaskConnected] = useState(false);
   //#########################################################################
 
   const StartLottery = () => {};
@@ -27,7 +28,14 @@ const LotteryProvider = ({ children }) => {
 
   return (
     <LotteryContext.Provider
-      value={{ loading, StartLottery, EndLottery, EnterLottery, AssignWinner }}
+      value={{
+        loading,
+        MetaMaskConnected,
+        StartLottery,
+        EndLottery,
+        EnterLottery,
+        AssignWinner,
+      }}
     >
       {children}
     </LotteryContext.Provider>

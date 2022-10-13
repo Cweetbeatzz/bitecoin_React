@@ -1,7 +1,10 @@
 import React from "react";
+import { useContext } from "react";
+import { LotteryContext } from "../../Context/Lottery";
 import "./Lottery.styles.css";
 
 function Lottery() {
+  const Lotteryyy = useContext(LotteryContext);
   return (
     <div>
       <br />
