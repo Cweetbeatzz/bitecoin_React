@@ -16,6 +16,17 @@ export const LotteryProvider = ({ children }) => {
   const StartLottery = () => {};
 
   //#########################################################################
+
+  const CountDownTimer = () => {
+    let today = new Date();
+    let currentTime = today.getDate();
+    let resetDate = currentTime;
+    let minutes = today.getMinutes();
+    let seconds = today.getSeconds();
+    let hours = today.getHours();
+  };
+
+  //#########################################################################
   const EndLottery = () => {};
 
   //#########################################################################
