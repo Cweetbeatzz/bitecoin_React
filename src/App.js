@@ -21,48 +21,51 @@ import Nfts from "./components/nft/Nfts.js";
 import Dashboard from "./components/dashboard/Dashboard.js";
 import Pools from "./components/pools/Pools.js";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import { LotteryProvider } from "./Context/LotteryContext";
+import { MoralisProvider } from "react-moralis";
+import { LotteryProvider } from "./Context/Others/LotteryContext";
 
 class App extends Component {
   //#############################################################################
   render() {
     return (
       <div className="App">
-        <LotteryProvider>
-          <DAppProvider
-            config={{
-              supportedChains: [
-                ChainId.Kovan,
-                ChainId.Rinkeby,
-                ChainId.Avalanche,
-                ChainId.BSC,
-                ChainId.Fantom,
-                ChainId.Mainnet,
-                ChainId.Ropsten,
-                ChainId.xDai,
-                ChainId.Localhost,
-              ],
-            }}
-          >
-            <BrowserRouter>
-              <Header />
-              <Routes>
-                <Route path="*" element={<Home />} />
-                <Route path="Home" element={<Home />} />
-                <Route path="Stake" element={<Stake />} />
-                <Route path="Pools" element={<Pools />} />
-                <Route path="nfts" element={<Nfts />} />
-                <Route path="Dashboard" element={<Dashboard />} />
-                <Route path="Swap" element={<Swap />} />
-                <Route path="Lottery" element={<Lottery />} />
-                <Route path="Borrow" element={<Borrow />} />
-                <Route path="Wallet" element={<Wallet />} />
-                <Route path="Deposit" element={<Deposit />} />
-              </Routes>
-              <Footer />
-            </BrowserRouter>
-          </DAppProvider>
-        </LotteryProvider>
+        <MoralisProvider initializeOnMount={false}>
+          <LotteryProvider>
+            <DAppProvider
+              config={{
+                supportedChains: [
+                  ChainId.Kovan,
+                  ChainId.Rinkeby,
+                  ChainId.Avalanche,
+                  ChainId.BSC,
+                  ChainId.Fantom,
+                  ChainId.Mainnet,
+                  ChainId.Ropsten,
+                  ChainId.xDai,
+                  ChainId.Localhost,
+                ],
+              }}
+            >
+              <BrowserRouter>
+                <Header />
+                <Routes>
+                  <Route path="*" element={<Home />} />
+                  <Route path="Home" element={<Home />} />
+                  <Route path="Stake" element={<Stake />} />
+                  <Route path="Pools" element={<Pools />} />
+                  <Route path="nfts" element={<Nfts />} />
+                  <Route path="Dashboard" element={<Dashboard />} />
+                  <Route path="Swap" element={<Swap />} />
+                  <Route path="Lottery" element={<Lottery />} />
+                  <Route path="Borrow" element={<Borrow />} />
+                  <Route path="Wallet" element={<Wallet />} />
+                  <Route path="Deposit" element={<Deposit />} />
+                </Routes>
+                <Footer />
+              </BrowserRouter>
+            </DAppProvider>
+          </LotteryProvider>
+        </MoralisProvider>
       </div>
     );
   }
