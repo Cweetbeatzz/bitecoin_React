@@ -2,89 +2,60 @@ import React, { createContext, useContext, useState } from "react";
 
 //#########################################################################
 
-export const LotteryContext = createContext();
+export const RaffleDrawContext = createContext();
 
 //#########################################################################
 
-export const LotteryProvider = ({ children }) => {
+export const RaffleDrawProvider = ({ children }) => {
   //#########################################################################
 
   const [loading, setLoading] = useState(false);
   const [MetaMaskConnected, setMetaMaskConnected] = useState(false);
   //#########################################################################
 
-  const StartLottery = () => {};
-
-  //#########################################################################
-  const GetTickets = () => {};
-
-  //#########################################################################
-  const GetWinningsForAddress = () => {};
-
-  //#########################################################################
-  const BuyTickets = () => {};
-
-  //#########################################################################
-  const DrawWinnerTicket = () => {};
-
-  //#########################################################################
-  const RestartDraw = () => {};
-
-  //#########################################################################
-  const CheckWinningsAmount = () => {};
-
-  //#########################################################################
-  const WithdrawWinnings = () => {};
-
-  //#########################################################################
-  const RefundAll = () => {};
-
-  //#########################################################################
-  const WithdrawCommission = () => {};
-
-  //#########################################################################
-  const IsWinner = () => {};
-
-  //#########################################################################
-  const CurrentWinningReward = () => {};
-
-  //#########################################################################
-  const RemainingTickets = () => {};
-
+  const EnterRaffleDraw = () => {};
   //#########################################################################
 
-  // const CountDownTimer = () => {
-  //   let today = new Date();
-  //   let currentTime = today.getDate();
-  //   let resetDate = currentTime;
-  //   let minutes = today.getMinutes();
-  //   let seconds = today.getSeconds();
-  //   let hours = today.getHours();
-  // };
+  const GetRaffleState = () => {};
+  //#########################################################################
+  const GetNumWords = () => {};
+  //#########################################################################
+  const GetRequestConfirmations = () => {};
+  //#########################################################################
+  const GetRecentWinner = () => {};
+  //#########################################################################
+  const GetPlayer = () => {};
+  //#########################################################################
+  const GetLastTimeStamp = () => {};
+  //#########################################################################
+  const GetInterval = () => {};
+  //#########################################################################
+  const GetEntranceFee = () => {};
+  //#########################################################################
+  const GetNumberOfPlayers = () => {};
+  //#########################################################################
+
+  const StartRaffleDraw = () => {};
 
   //#########################################################################
-  const EndLottery = () => {};
-
-  //#########################################################################
-
-  const EnterLottery = () => {};
+  const EndRaffleDraw = () => {};
 
   //#########################################################################
 
   const AssignWinner = () => {};
 
   return (
-    <LotteryContext.Provider
+    <RaffleDrawContext.Provider
       value={{
         loading,
         MetaMaskConnected,
-        StartLottery,
-        EndLottery,
-        EnterLottery,
+        StartRaffleDraw,
+        EndRaffleDraw,
+        EnterRaffleDraw,
         AssignWinner,
       }}
     >
       {children}
-    </LotteryContext.Provider>
+    </RaffleDrawContext.Provider>
   );
 };
