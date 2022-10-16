@@ -17,7 +17,7 @@ contract Lottery {
 
     mapping(address => uint256) public winnings; // maps the winners to there winnings
     address[] public tickets; //array of purchased Tickets
-
+    //######################################################################
     // modifier to check if caller is the lottery operator
     modifier isOperator() {
         require(
@@ -26,27 +26,31 @@ contract Lottery {
         );
         _;
     }
-
+    //######################################################################
     // modifier to check if caller is a winner
     modifier isWinner() {
         require(IsWinner(), "Caller is not a winner");
         _;
     }
 
+    //######################################################################
     constructor() {
         lotteryOperator = msg.sender;
         expiration = block.timestamp + duration;
     }
 
+    //######################################################################
     // return all the tickets
     function getTickets() public view returns (address[] memory) {
         return tickets;
     }
 
+    //######################################################################
     function getWinningsForAddress(address addr) public view returns (uint256) {
         return winnings[addr];
     }
 
+    //######################################################################
     function BuyTickets() public payable {
         require(
             msg.value % ticketPrice == 0,
@@ -68,6 +72,7 @@ contract Lottery {
         }
     }
 
+    //######################################################################
     function DrawWinnerTicket() public isOperator {
         require(tickets.length > 0, "No tickets were purchased");
 
@@ -86,6 +91,7 @@ contract Lottery {
         expiration = block.timestamp + duration;
     }
 
+    //######################################################################
     function restartDraw() public isOperator {
         require(tickets.length == 0, "Cannot Restart Draw as Draw is in play");
 
@@ -93,6 +99,7 @@ contract Lottery {
         expiration = block.timestamp + duration;
     }
 
+    //######################################################################
     function checkWinningsAmount() public view returns (uint256) {
         address payable winner = payable(msg.sender);
 
@@ -101,6 +108,7 @@ contract Lottery {
         return reward2Transfer;
     }
 
+    //######################################################################
     function WithdrawWinnings() public isWinner {
         address payable winner = payable(msg.sender);
 
@@ -110,6 +118,7 @@ contract Lottery {
         winner.transfer(reward2Transfer);
     }
 
+    //######################################################################
     function RefundAll() public {
         require(block.timestamp >= expiration, "the lottery not expired yet");
 
@@ -121,6 +130,7 @@ contract Lottery {
         delete tickets;
     }
 
+    //######################################################################
     function WithdrawCommission() public isOperator {
         address payable operator = payable(msg.sender);
 
@@ -130,14 +140,17 @@ contract Lottery {
         operator.transfer(commission2Transfer);
     }
 
+    //######################################################################
     function IsWinner() public view returns (bool) {
         return winnings[msg.sender] > 0;
     }
 
+    //######################################################################
     function CurrentWinningReward() public view returns (uint256) {
         return tickets.length * ticketPrice;
     }
 
+    //######################################################################
     function RemainingTickets() public view returns (uint256) {
         return maxTickets - tickets.length;
     }
