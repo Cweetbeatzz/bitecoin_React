@@ -80,9 +80,6 @@ function Lottery() {
           <div className="d-flex justify-content-center ">
             {account ? (
               <div className="m-1 ">
-                {/* <button className="btn btn-warning shadow">
-                  <strong>LOGOUT</strong>
-                </button> */}
                 <div className="p-2 bg-warning justify-content-center align-content-center">
                   <h6 className=" align-self-center ">
                     <strong>
