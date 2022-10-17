@@ -78,7 +78,12 @@ export default function EnterLottery() {
         <button
           className="btn btn-warning shadow"
           onClick={async () => {
-            await enterRaffleDraw();
+            await enterRaffleDraw({
+              onError: (err) => console.log(err),
+              onSuccess: () => {
+                "show success notification using toast notification or from material ui";
+              },
+            });
 
             console.log("enter clicked");
           }}
