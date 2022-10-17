@@ -8,18 +8,18 @@ import {
   Config,
   ChainId,
 } from "@usedapp/core";
-import Header from "./components/header/Header.js";
-import Home from "./components/home/Home.js";
+import Header from "./components/header/Header";
+import Home from "./components/home/Home";
 import Stake from "./components/stake/Stake";
-import Wallet from "./components/wallet/Wallet.jsx";
-import Footer from "./components/footer/Footer.js";
-import Lottery from "./components/lottery/Lottery.js";
-import Borrow from "./components/borrow/Borrow.js";
-import Swap from "./components/swap/Swap.js";
-import Deposit from "./components/deposit/Deposit.js";
-import Nfts from "./components/nft/Nfts.js";
-import Dashboard from "./components/dashboard/Dashboard.js";
-import Pools from "./components/pools/Pools.js";
+import Wallet from "./components/wallet/Wallet";
+import Footer from "./components/footer/Footer";
+import Lottery from "./components/lottery/Lottery";
+import Borrow from "./components/borrow/Borrow";
+import Swap from "./components/swap/Swap";
+import Deposit from "./components/deposit/Deposit";
+import Nfts from "./components/nft/Nfts";
+import Dashboard from "./components/dashboard/Dashboard";
+import Pools from "./components/pools/Pools";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { MoralisProvider } from "react-moralis";
 import { LotteryProvider } from "./Context/Others/LotteryContext";
