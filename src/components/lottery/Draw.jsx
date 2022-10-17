@@ -10,7 +10,7 @@ export default function Draw() {
   const [seconds, setseconds] = useState(0);
 
   const [countDownDate, setcountDownDate] = useState(
-    new Date("Jan 5,2023 15:37:25").getTime()
+    new Date("Mar 21,2023 15:37:25").getTime()
   ); // Set the date we're counting down to
 
   //#################################################################
