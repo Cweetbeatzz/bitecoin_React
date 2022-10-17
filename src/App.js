@@ -23,6 +23,7 @@ import Pools from "./components/pools/Pools.js";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { MoralisProvider } from "react-moralis";
 import { LotteryProvider } from "./Context/Others/LotteryContext";
+import EnterLottery from "./components/lottery/EnterLottery";
 
 class App extends Component {
   //#############################################################################
@@ -60,6 +61,7 @@ class App extends Component {
                   <Route path="Borrow" element={<Borrow />} />
                   <Route path="Wallet" element={<Wallet />} />
                   <Route path="Deposit" element={<Deposit />} />
+                  <Route path="EnterLottery" element={<EnterLottery />} />
                 </Routes>
                 <Footer />
               </BrowserRouter>

@@ -59,6 +59,7 @@ function Lottery() {
   return (
     <div>
       <br />
+
       <div>
         <div className="bg-gradient p-4 m-3 ">
           <h4 className=" justify-content-lg-start pl-3 text-warning ">
@@ -125,6 +126,7 @@ function Lottery() {
         </div>
         <br />
         <br />
+        {/* <EnterLottery /> */}
         <div className="container bg-gradient p-4">
           <span className="d-flex justify-content-center gap-2">
             <h4 className="txt bg-warning p-2 text-black">
