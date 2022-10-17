@@ -37,3 +37,13 @@
   align-self: center;
 
 }
+
+#time-display {
+  border-radius: 10px;
+  padding: 10px;
+  /* width: 50px;
+  height: 50px; */
+  /* align-content: center;
+  justify-content: center; */
+  /* align-self: center; */
+}

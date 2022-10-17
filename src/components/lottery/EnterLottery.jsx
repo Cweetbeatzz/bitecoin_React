@@ -46,7 +46,7 @@ export default function EnterLottery() {
     msgValue: lotteryEntrancefee,
     params: {},
   });
-
+  const startSpin = isFetching || isLoading;
   //#########################################################################
   //to get number of players....
   const { runContractFunction: getNumberOfPlayers } = useWeb3Contract({
@@ -127,6 +127,13 @@ export default function EnterLottery() {
   }, [isWeb3Enabled, lotteryRecentWinner]);
   //#########################################################################
 
+  const setSpinner = () => {
+    if (startSpin) {
+      return "Loading...";
+    }
+  };
+  //#########################################################################
+
   return (
     <div className="mb-5">
       {/* ########## */}
@@ -167,6 +174,7 @@ export default function EnterLottery() {
 
       <div>
         <button
+          disabled={startSpin}
           className="btn btn-warning shadow"
           onClick={async () => {
             await enterRaffleDraw({
