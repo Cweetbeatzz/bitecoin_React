@@ -1,5 +1,6 @@
 import React from "react";
 import "./NftMarketPlace.styles.css";
+import { Link } from "react-router-dom";
 
 function NftMarketPlace() {
   return (
@@ -12,10 +13,20 @@ function NftMarketPlace() {
         </h1>
         <hr className="text-white p-0" />
       </div>
+      {/* ############### */}
+      <div className="col-6 col-md-2 bg-danger mx-auto my-auto ">
+        <Link
+          className="btn btn-warning btn-lg w-100"
+          to="/UploadNft"
+          type="submit"
+        >
+          <strong>UPLOAD NFT</strong>{" "}
+        </Link>
+      </div>
 
       <div className="nft-container">
         <div className=" col-12 mx-auto m-3">
-          <div className=" p-5 bg-light bg-opacity-10 mx-auto" id="bloocc">
+          <div className=" p-5 bg-gradient mx-auto" id="bloocc">
             <div className="">
               <div className="gap-2" id="neftflex">
                 <div class="card" id="card">
