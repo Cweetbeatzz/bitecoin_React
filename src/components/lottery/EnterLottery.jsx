@@ -8,14 +8,14 @@ import { ethers } from "ethers";
 
 export default function EnterLottery() {
   //#########################################################################
-  const [lotteryEntrancefee, setLotteryEntrancefee] = useState("");
+  const [lotteryEntrancefee, setLotteryEntrancefee] = useState("0.00");
 
   const { chainId: chainIdHex, isWeb3Enabled } = useMoralis();
   const chainId = parseInt(chainIdHex);
   //
   console.log(chainId);
-  const raffle_draw_address =
-    chainId in RaffleDraw_Address ? RaffleDraw_Address[chainId] : null;
+  // const raffle_draw_address =
+  //   chainId in RaffleDraw_Address ? RaffleDraw_Address[chainId] : null;
   //#########################################################################
   //to enter the raffle draw we need the entrance fee initalized in the constructor....
   const { runContractFunction: getEntranceFee } = useWeb3Contract({
@@ -46,6 +46,8 @@ export default function EnterLottery() {
     console.log(entrancefee);
   };
   //#########################################################################
+  console.log("lotteryEntrancefee", lotteryEntrancefee);
+  //#########################################################################
 
   useEffect(() => {
     if (isWeb3Enabled) {
@@ -57,18 +59,17 @@ export default function EnterLottery() {
   //#########################################################################
 
   return (
-    <div>
-      EnterLottery
+    <div className="mb-5">
       <div>
         {RaffleDraw_Address ? (
-          <h4>
+          <h4 className="text-white mb-3">
             <strong>
-              Lottery Entrance Fee:{" "}
-              {ethers.utils.formatUnits(lotteryEntrancefee, "ethers")} ETH
+              Lottery Entrance Fee: {lotteryEntrancefee} ETH
+              {/* {ethers.utils.formatUnits(lotteryEntrancefee, "ethers")} ETH */}
             </strong>
           </h4>
         ) : (
-          <h4>
+          <h4 className="text-white mb-3">
             <strong>Not Connected...</strong>
           </h4>
         )}
@@ -82,7 +83,7 @@ export default function EnterLottery() {
             console.log("enter clicked");
           }}
         >
-          <strong>CONNECT WALLET</strong>
+          <strong>ENTER RAFFLE DRAW</strong>
         </button>
       </div>
     </div>

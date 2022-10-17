@@ -57,7 +57,7 @@ function Header() {
                 <Link to="stake">stake</Link>
               </li>
               <li className="nav-item">
-                <Link to="lottery">lottery</Link>
+                <Link to="LotteryHome">lottery</Link>
               </li>
               <li className="nav-item">
                 <Link to="swap">swap</Link>
