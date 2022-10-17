@@ -17,3 +17,20 @@
 #moneyval {
   box-shadow: 100px;
 }
+
+#raffle-state-container {
+  position: absolute;
+  top: 380px;
+  left: 170px;
+  border-radius: 200px;
+  background-color: rgb(255, 242, 0);
+  width: 200px;
+  height: 100;
+  margin-left: 10px;
+  /* transform: rotateY(45); */
+}
+
+#raffle-state {
+  padding: 10px;
+
+}
