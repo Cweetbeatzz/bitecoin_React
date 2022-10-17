@@ -12,7 +12,9 @@ export default function EnterLottery() {
   const [lotteryEntrancefee, setLotteryEntrancefee] = useState("0.00");
   const [lotteryNumberOfPlayers, setLotteryNumberOfPlayers] = useState([]);
   const [lotteryRaffleState, setLotteryRaffleState] = useState("CLOSED");
-  const [lotteryRecentWinner, setLotteryRecentWinner] = useState("");
+  const [lotteryRecentWinner, setLotteryRecentWinner] = useState(
+    "0x01c03DD6012739fD0FAAA25A07393E92fA9a9464"
+  );
   const [lotteryPlayer, setLotteryPlayer] = useState("");
 
   const { chainId: chainIdHex, isWeb3Enabled } = useMoralis();
@@ -141,12 +143,20 @@ export default function EnterLottery() {
 
       <div>
         {RaffleDraw_Address ? (
-          <h4 className="text-white mb-3">
-            <strong>
-              Lottery Entrance Fee: {lotteryEntrancefee} ETH
-              {/* {ethers.utils.formatUnits(lotteryEntrancefee, "ethers")} ETH */}
-            </strong>
-          </h4>
+          <div>
+            <h4 className="text-white mb-3">
+              <strong>Players : {lotteryNumberOfPlayers}</strong>
+            </h4>
+            <h4 className="text-white mb-3">
+              <strong>
+                Lottery Entrance Fee : {lotteryEntrancefee} ETH
+                {/* {ethers.utils.formatUnits(lotteryEntrancefee, "ethers")} ETH */}
+              </strong>
+            </h4>
+            <h5 className="text-white mb-3">
+              <strong>Recent Winner : {lotteryRecentWinner}</strong>
+            </h5>
+          </div>
         ) : (
           <h4 className="text-white mb-3">
             <strong>Not Connected...</strong>
