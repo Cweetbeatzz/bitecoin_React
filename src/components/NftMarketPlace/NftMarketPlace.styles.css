@@ -1,0 +1,110 @@
+.nftimages {
+ height: 200px;
+}
+
+.nft-container {
+ display: flex;
+}
+
+.nftcards {
+ display: flex;
+}
+
+.card {
+ border-radius: 5px;
+}
+
+.a {
+ text-decoration: none;
+}
+
+.ethlogo {
+ width: 10px;
+}
+
+#nfttext {
+ font-size: 60px;
+ color: rgb(255, 196, 0);
+ font-weight: 700;
+}
+
+#cardimg {
+ width: 18rem;
+ height: 15rem;
+}
+
+#card {
+ width: 18rem;
+ height: 22rem;
+ border-radius: 5px;
+}
+
+#askingprice1 {
+ font-size: 10px;
+ justify-content: flex-start;
+}
+
+#dollarvalue {
+ font-size: 10px;
+}
+
+#ethvalue1 {
+ /* font-weight: 700; */
+ color: rgb(98, 0, 255);
+}
+
+#ethlogo1 {
+ width: 1em;
+ height: 15px;
+ /* background-color: black; */
+}
+
+#nftheadname {
+ color: rgb(106, 28, 207);
+}
+
+#neftflex {
+ display: grid;
+ grid-template-columns: repeat(4, 18rem);
+}
+
+/* ########################################################################## */
+@media (max-width: 1400px) {
+ #neftflex {
+  display: grid;
+  grid-template-columns: repeat(6, 18rem);
+  justify-content: center;
+ }
+}
+
+@media (max-width: 1200px) {
+ #neftflex {
+  display: grid;
+  grid-template-columns: repeat(4, 18rem);
+  justify-content: center;
+ }
+}
+
+@media (max-width: 992px) {
+ #neftflex {
+  display: grid;
+  grid-template-columns: repeat(3, 18rem);
+  justify-content: center;
+ }
+}
+
+@media (max-width: 768px) {
+ #neftflex {
+  display: grid;
+  grid-template-columns: repeat(2, 18rem);
+  justify-content: center;
+ }
+
+ #bloocc {
+  width: 100%;
+ }
+
+ .nft-container {
+  display: block;
+ }
+}

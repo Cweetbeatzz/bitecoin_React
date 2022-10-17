@@ -25,6 +25,7 @@ import { MoralisProvider } from "react-moralis";
 import { LotteryProvider } from "./Context/Others/LotteryContext";
 import EnterLottery from "./components/lottery/EnterLottery";
 import LotteryHome from "./components/lottery/LotteryHome";
+import NftMarketPlace from "./components/NftMarketPlace/NftMarketPlace";
 
 class App extends Component {
   //#############################################################################
@@ -55,7 +56,8 @@ class App extends Component {
                   <Route path="Home" element={<Home />} />
                   <Route path="Stake" element={<Stake />} />
                   <Route path="Pools" element={<Pools />} />
-                  <Route path="nfts" element={<Nfts />} />
+                  {/* <Route path="nfts" element={<Nfts />} /> */}
+                  <Route path="nfts" element={<NftMarketPlace />} />
                   <Route path="Dashboard" element={<Dashboard />} />
                   <Route path="Swap" element={<Swap />} />
                   <Route path="Lottery" element={<Lottery />} />
