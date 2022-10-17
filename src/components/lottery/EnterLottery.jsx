@@ -63,17 +63,31 @@ export default function EnterLottery() {
     params: {},
   });
   //#########################################################################
+  //to get number of players....
+  const { runContractFunction: getRecentWinner } = useWeb3Contract({
+    abi: RaffleDraw_abi,
+    contractAddress: RaffleDraw_Address,
+    functionName: "getRecentWinner",
+    params: {},
+  });
+
+  //#########################################################################
+
   const getEntanceFee = async () => {
     const entrancefee = (await getEntranceFee()).toString();
     setLotteryEntrancefee(entrancefee);
     console.log(entrancefee);
   };
+
   //#########################################################################
+
   const getRaffleSstate = () => {
     setLotteryRaffleState("OPEN");
   };
   //#########################################################################
+
   console.log("lotteryEntrancefee", lotteryEntrancefee);
+
   //#########################################################################
 
   useEffect(() => {
@@ -90,10 +104,10 @@ export default function EnterLottery() {
       {/* ########## */}
 
       <div id="raffle-state-container">
-        <h4 className=" " id="raffle-state">
+        <h4 className="" id="raffle-state">
           Raffle state is :{" "}
           <span>
-            <strong>{lotteryRaffleState}</strong>
+            <strong>{lotteryRaffleState} </strong>
           </span>
         </h4>
       </div>

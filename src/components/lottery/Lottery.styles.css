@@ -20,17 +20,20 @@
 
 #raffle-state-container {
   position: absolute;
-  top: 380px;
-  left: 170px;
-  border-radius: 200px;
+  top: 400px;
+  left: 280px;
+  border-radius: 100px;
   background-color: rgb(255, 242, 0);
-  width: 200px;
-  height: 100;
+  width: 120px;
+  height: 120px;
   margin-left: 10px;
-  /* transform: rotateY(45); */
+  transform: rotate(-35deg);
+  justify-content: center;
+  padding: 10px;
 }
 
 #raffle-state {
   padding: 10px;
+  align-self: center;
 
 }
