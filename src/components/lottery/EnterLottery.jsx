@@ -73,16 +73,31 @@ export default function EnterLottery() {
 
   //#########################################################################
 
-  const getEntanceFee = async () => {
+  const getLotteryEntanceFee = async () => {
     const entrancefee = (await getEntranceFee()).toString();
     setLotteryEntrancefee(entrancefee);
     console.log(entrancefee);
+  };
+  //#########################################################################
+
+  const getLotteryNumOfPlayers = async () => {
+    const numOfPlayers = (await getNumberOfPlayers()).toString();
+    setLotteryNumberOfPlayers(numOfPlayers);
+    console.log(numOfPlayers);
+  };
+
+  //#########################################################################
+  const getLotteryRecentWinner = async () => {
+    const winner = (await getRecentWinner()).toString();
+    setLotteryRecentWinner(winner);
+    console.log(winner);
   };
 
   //#########################################################################
 
   const getRaffleSstate = () => {
-    setLotteryRaffleState("OPEN");
+    const state = setLotteryRaffleState("OPEN");
+    console.log(state);
   };
   //#########################################################################
 
@@ -90,13 +105,24 @@ export default function EnterLottery() {
 
   //#########################################################################
 
+  /* ########## */
+
   useEffect(() => {
     if (isWeb3Enabled) {
       //read entrance fee
-      getEntanceFee();
+      getRaffleSstate();
+      getLotteryEntanceFee();
+      getLotteryNumOfPlayers();
     }
   }, [isWeb3Enabled]);
 
+  /* ########## */
+
+  useEffect(() => {
+    if (isWeb3Enabled) {
+      getLotteryRecentWinner();
+    }
+  }, [isWeb3Enabled, lotteryRecentWinner]);
   //#########################################################################
 
   return (
