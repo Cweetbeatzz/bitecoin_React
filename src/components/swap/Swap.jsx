@@ -12,12 +12,10 @@ function Swap() {
           <strong>SWAP ASSET</strong>
         </h4>
         <hr className="text-white p-0" />
-        <br />
       </div>
-      <p className=" p-3 text-warning  mx-auto">
+      <p className=" text-warning  mx-auto">
         <strong>SWAP TOKENS INSTANTLY</strong>
       </p>
-      <br />
 
       <div className="col-10 d-flex mx-auto m-1 justify-content-center">
         <div className="col-8 w-100 m-2">
@@ -29,7 +27,7 @@ function Swap() {
 
               <div className="text-center ">
                 <br />
-                <label className="btn-outline-warning pb-2">
+                <label className="text-warning px-3 pt-2 pb-2 bg-black mb-2">
                   <strong>PAY</strong>
                 </label>
                 <br />
@@ -41,14 +39,14 @@ function Swap() {
                       </option>
                     </select>
                   </div>
-                  <div className="form-group col-8">
+                  <div className="form-group col-5">
                     <input className="form-control" placeholder="0.0" />
                   </div>
                 </div>
               </div>
 
               <br />
-              <div className="text-warning  mx-auto" id="arrowexchange">
+              <div className="text-warning mx-auto" id="arrowexchange">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="16"
@@ -64,10 +62,9 @@ function Swap() {
                 </svg>
               </div>
               <br />
-              <br />
 
               <div className="text-center">
-                <label className="btn-outline-warning pb-2">
+                <label className="px-3 bg-black mb-2 pt-2 pb-2 text-warning">
                   <strong>RECIEVE</strong>
                 </label>
                 <br />
@@ -80,7 +77,7 @@ function Swap() {
                       </option>
                     </select>
                   </div>
-                  <div className="form-group col-8">
+                  <div className="form-group col-5">
                     <input className="form-control" placeholder="0.0" />
                   </div>
                 </div>
