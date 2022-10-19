@@ -5,7 +5,6 @@ import { useMoralis } from "react-moralis";
 import { LotteryContext } from "../../Context/Others/LotteryContext";
 import "./Lottery.styles.css";
 
-
 function Lottery() {
   const {
     ConnectMetaMask,
@@ -82,7 +81,7 @@ function Lottery() {
           <div className="d-flex justify-content-center ">
             {account ? (
               <div className="m-1 ">
-                <div className="p-2 bg-warning justify-content-center align-content-center">
+                <div className="p-2 bg-danger justify-content-center align-content-center">
                   <h6 className=" align-self-center ">
                     <strong>
                       CONNECTED TO : {account.slice(0, 8)}...
@@ -127,7 +126,6 @@ function Lottery() {
         </div>
         <br />
         <br />
-
       </div>
     </div>
   );
