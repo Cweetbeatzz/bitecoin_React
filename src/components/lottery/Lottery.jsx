@@ -24,6 +24,7 @@ function Lottery() {
     Moralis,
     deactivateWeb3,
     isWeb3EnableLoading,
+    logout,
   } = useMoralis();
 
   //#########################################################################

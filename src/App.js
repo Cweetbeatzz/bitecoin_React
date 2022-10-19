@@ -33,7 +33,11 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <MoralisProvider initializeOnMount={false}>
+        <MoralisProvider
+          // appId={process.env.MORALIS_APP_ID}
+          // serverUrl={process.env.MORALIS_SERVER_URL}
+          initializeOnMount={false}
+        >
           <LotteryProvider>
             <DAppProvider
               config={{
