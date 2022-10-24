@@ -9,12 +9,24 @@ import {
 import { useEthers } from "@usedapp/core";
 import { Link } from "react-router-dom";
 import "./Header.styles.css";
+import { useState } from "react";
+import { useEffect } from "react";
 
 function Header() {
+  //############################################################################
+
+  const [isConnected, setIsConnected] = useState("");
   const { account, activateBrowserWallet, deactivate } = useEthers();
   //if account is undefined  account is not connected else account is connected
-  const isConnected = account !== undefined;
+  //############################################################################
 
+  const AccountCheck = () => {
+    setIsConnected(account !== undefined);
+  };
+  //############################################################################
+
+  useEffect(() => {}, [isConnected, activateBrowserWallet]);
+  //############################################################################
   return (
     <Container>
       <nav
