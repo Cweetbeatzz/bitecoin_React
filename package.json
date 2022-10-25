@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@chakra-ui/react": "^2.3.6",
     "@emotion/react": "^11.10.4",
     "@emotion/styled": "^11.10.4",
     "@mui/material": "^5.10.9",
@@ -25,6 +26,7 @@
     "dotenv": "^16.0.3",
     "ethereum-waffle": "^3.4.0",
     "ethers": "^5.5.3",
+    "framer-motion": "^6.5.1",
     "hardhat": "^2.8.3",
     "ipfs-http-client": "^55.0.0",
     "moralis-v1": "^1.11.0",

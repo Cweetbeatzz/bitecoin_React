@@ -27,6 +27,7 @@ import EnterLottery from "./components/lottery/EnterLottery";
 import LotteryHome from "./components/lottery/LotteryHome";
 import NftMarketPlace from "./components/NftMarketPlace/NftMarketPlace";
 import UploadNft from "./components/NftMarketPlace/UploadNft";
+import { ChakraProvider } from "@chakra-ui/react";
 
 class App extends Component {
   //#############################################################################
@@ -54,27 +55,29 @@ class App extends Component {
                 ],
               }}
             >
-              <BrowserRouter>
-                <Header />
-                <Routes>
-                  <Route path="*" element={<Home />} />
-                  <Route path="Home" element={<Home />} />
-                  <Route path="Stake" element={<Stake />} />
-                  <Route path="Pools" element={<Pools />} />
-                  {/* <Route path="nfts" element={<Nfts />} /> */}
-                  <Route path="nfts" element={<NftMarketPlace />} />
-                  <Route path="Dashboard" element={<Dashboard />} />
-                  <Route path="Swap" element={<Swap />} />
-                  <Route path="Lottery" element={<Lottery />} />
-                  <Route path="Borrow" element={<Borrow />} />
-                  <Route path="Wallet" element={<Wallet />} />
-                  <Route path="Deposit" element={<Deposit />} />
-                  <Route path="EnterLottery" element={<EnterLottery />} />
-                  <Route path="LotteryHome" element={<LotteryHome />} />
-                  <Route path="UploadNft" element={<UploadNft />} />
-                </Routes>
-                <Footer />
-              </BrowserRouter>
+              <ChakraProvider>
+                <BrowserRouter>
+                  <Header />
+                  <Routes>
+                    <Route path="*" element={<Home />} />
+                    <Route path="Home" element={<Home />} />
+                    <Route path="Stake" element={<Stake />} />
+                    <Route path="Pools" element={<Pools />} />
+                    {/* <Route path="nfts" element={<Nfts />} /> */}
+                    <Route path="nfts" element={<NftMarketPlace />} />
+                    <Route path="Dashboard" element={<Dashboard />} />
+                    <Route path="Swap" element={<Swap />} />
+                    <Route path="Lottery" element={<Lottery />} />
+                    <Route path="Borrow" element={<Borrow />} />
+                    <Route path="Wallet" element={<Wallet />} />
+                    <Route path="Deposit" element={<Deposit />} />
+                    <Route path="EnterLottery" element={<EnterLottery />} />
+                    <Route path="LotteryHome" element={<LotteryHome />} />
+                    <Route path="UploadNft" element={<UploadNft />} />
+                  </Routes>
+                  <Footer />
+                </BrowserRouter>
+              </ChakraProvider>
             </DAppProvider>
           </LotteryProvider>
         </MoralisProvider>

@@ -116,7 +116,7 @@ export default function EnterLottery() {
       getLotteryEntanceFee();
       getLotteryNumOfPlayers();
     }
-  }, [isWeb3Enabled]);
+  }, [isWeb3Enabled, lotteryNumberOfPlayers]);
 
   /* ########## */
 
